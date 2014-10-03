@@ -15,7 +15,6 @@
 	<header class="site-header">
 		<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 		<h5><?php bloginfo('description'); ?></h5>
-<<<<<<< HEAD:header.php
 
 		<nav class="site-nav"><!-- Header Navigation -->
 
@@ -29,6 +28,3 @@
 		</nav>
 
 	</header><!-- /site header -->
-=======
-	</header><!-- /site header -->
->>>>>>> FETCH_HEAD:header.php
