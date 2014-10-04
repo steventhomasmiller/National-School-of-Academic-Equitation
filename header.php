@@ -15,16 +15,10 @@
 	<header class="site-header">
 		<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 		<h5><?php bloginfo('description'); ?></h5>
-
-		<nav class="site-nav"><!-- Header Navigation -->
-
-			<?php
-				$ars = array(
-						'theme_location' => 'primary'
-					);
+			<nav class="site-nav"><!-- ***** Header Navigation ***** -->
+				<?php
+					$args = array( 'theme_location' => 'primary' );
 				?>
-			<?php wp_nav_menu( $args ); ?>
-
-		</nav>
-
+				<?php wp_nav_menu( $args ); ?>
+			</nav>
 	</header><!-- /site header -->
