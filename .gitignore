@@ -1,0 +1,6 @@
+node_modules
+.ds-store
+*.sublime-workspace
+proj.xml
+desktop.ini
+thumbs.db
