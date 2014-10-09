@@ -12,4 +12,6 @@ add_action('wp_enqueue_scripts', 'wordpress_resources');
 register_nav_menus(array(
 	'primary' => __( 'Primary Menu' ),
 	'footer' => __( 'Footer Menu' ),
+
+	//test comment
 ));
