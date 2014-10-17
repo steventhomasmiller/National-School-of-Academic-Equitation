@@ -17,14 +17,16 @@ register_nav_menus(array(
 
 //Sidebars
 
-if ( function_exists('register_sidebar') ) {
 register_sidebar(array(
-'before_widget' => '<li id="%1$s" class="widget %2$s">',
-'after_widget' => '</li>',
-'before_title' => '<h2 class="widgettitle">',
-'after_title' => '</h2>',
+	"name" => "Right Sidebar",
+	"id" => "right-sidebar",
+	"description" => "This will be on the right",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+	'before_title' => "<h3 class='widget_title'>",
+	"after_title" => "</h3>",
 ));
-}
+
 
 //Second sidebar
 
