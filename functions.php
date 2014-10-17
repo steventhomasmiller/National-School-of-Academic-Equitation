@@ -41,6 +41,8 @@ register_sidebar(array(
 	"after_title" => "</h3>"
 ));
 
+//footer left
+
 register_sidebar(array(
 	"name" => "Footer Left",
 	"id" => "footer-left",
@@ -51,5 +53,20 @@ register_sidebar(array(
 	"after_title" => "</h3>"
 	
 ));
+
+//footer right
+
+register_sidebar(array(
+	"name" => "Footer Right",
+	"id" => "footer-right",
+	"description" => "This will also be for the sitemap",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+	"before_title" => "<h3 class='widget_title'>",
+	"after_title" => "</h3>"
+	
+));
+
+
 	
 	
