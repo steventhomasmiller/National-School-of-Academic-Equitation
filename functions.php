@@ -15,7 +15,7 @@ register_nav_menus(array(
 
 ));
 
-//Sidebars
+//Right sidebar
 
 register_sidebar(array(
 	"name" => "Right Sidebar",
@@ -24,20 +24,32 @@ register_sidebar(array(
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div>",
 	'before_title' => "<h3 class='widget_title'>",
-	"after_title" => "</h3>",
+	"after_title" => "</h3>"
 ));
 
 
-//Second sidebar
+//center sidebar
 
-if ( function_exists('register_sidebar') ) {
+
 register_sidebar(array(
-'name' => 'Homepage Sidebar',
-'id' => 'homepage-sidebar',
-'description' => 'Appears as the sidebar on the custom homepage',
-'before_widget' => '<div style="height: 280px"></div><li id="%1$s" class="widget %2$s">',
-'after_widget' => '</li>',
-'before_title' => '<h2 class="widgettitle">',
-'after_title' => '</h2>',
+	"name" => "Center Sidebar",
+	"id" => "center-sidebar",
+	"description" => "This is where the address will go",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+	"before_title" => "<h3 class='widget_title'>",
+	"after_title" => "</h3>"
 ));
-}
+
+register_sidebar(array(
+	"name" => "Footer Left",
+	"id" => "footer-left",
+	"description" => "This will be for the sitemap",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div">,
+	"before_title" => "<h3 class='widget_title'>",
+	"after_title" => "</h3>"
+	
+));
+	
+	
