@@ -109,4 +109,14 @@ article.page h2 {
 	font-size: 200%;
 }
 
+.right-sidebar{
+	width: 30%;
+	float: right;
+	border: 2px solid bisque;
+}
+
+.widget_title{
+	margin-left: 17px;
+}
+
 /* Media Queries */
