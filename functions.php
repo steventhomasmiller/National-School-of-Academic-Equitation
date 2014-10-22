@@ -23,7 +23,7 @@ register_sidebar(array(
 	"description" => "This will be on the right",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div>",
-	'before_title' => "<h3 class='widget_title'>",
+	"before_title" => "<h3 class='widget_title'>",
 	"after_title" => "</h3>"
 ));
 
@@ -48,7 +48,7 @@ register_sidebar(array(
 	"id" => "footer-left",
 	"description" => "This will be for the sitemap",
 	"before_widget" => "<div class='widget'>",
-	"after_widget" => "</div">,
+	"after_widget" => "</div>",
 	"before_title" => "<h3 class='widget_title'>",
 	"after_title" => "</h3>"
 	
@@ -66,7 +66,3 @@ register_sidebar(array(
 	"after_title" => "</h3>"
 	
 ));
-
-
-	
-	
