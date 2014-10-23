@@ -19,3 +19,5 @@ if (have_posts()) :
 get_footer();
 
 ?>
+
+<?php get_sidebar("right"); ?>

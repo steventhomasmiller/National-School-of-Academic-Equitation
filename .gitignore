@@ -3,4 +3,5 @@ node_modules
 *.sublime-workspace
 proj.xml
 desktop.ini
-thumbs.db
+thumbs.dbnode_modules
+node_modules
