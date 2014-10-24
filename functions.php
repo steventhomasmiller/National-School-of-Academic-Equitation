@@ -66,10 +66,7 @@ register_sidebar(array(
 	"after_title" => "</h3>"
 	
 ));
-<<<<<<< HEAD
-
 
 	
 ?>	
-=======
->>>>>>> FETCH_HEAD
+

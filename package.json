@@ -1,0 +1,24 @@
+{
+  "name": "National-School-of-Academic-Equitation",
+  "version": "1.0.0",
+  "description": "National-School-of-Academic-Equitation ====================================== This is a WordPress theme for ITC210 at SCC.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steventhomasmiller/National-School-of-Academic-Equitation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steventhomasmiller/National-School-of-Academic-Equitation/issues"
+  },
+  "homepage": "https://github.com/steventhomasmiller/National-School-of-Academic-Equitation",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
