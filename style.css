@@ -85,6 +85,11 @@ article.post:last-of-type {
   border-right: 1px dotted #BBB;
   text-decoration: none;
 }
+#footer-address {
+  width: 100%;
+  text-alignment: center;
+  text-decoration: none;
+}
 /* Page Layout */
 article.page h2 {
   font-size: 200%;
@@ -1059,10 +1064,4 @@ hr {
   margin: 0;
   overflow: visible;
   clip: auto;
-}
-body {
-  margin: 0;
-}
-body h1 {
-  color: #000000;
 }

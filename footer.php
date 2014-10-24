@@ -1,4 +1,12 @@
 	<footer class="site-footer">
+
+	<div id="footer-address">
+		<ul>
+			<li><h5>The National School of Academic Equitation</h5></li>
+			<li>11901 215th Place SE</li>
+			<li>Snohomish, WA 98296</li>
+			<li>nsae@classical-equitation.com</li>
+	</div>
 		<nav class="site-nav">    <!-- Footer Navigation -->
 			<?php
 				$args = array( 'theme_location' => 'footer' );
