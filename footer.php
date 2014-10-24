@@ -9,6 +9,7 @@
 		</ul>
 	</div>
 
+<div id="footer-widget">
 	<div class="row">
     <div class="span2">...</div>
     <div class="span2">...</div>
@@ -17,6 +18,7 @@
     <div class="span2">...</div>
     <div class="span2">...</div>
     </div>
+</div>
 
 		<nav class="site-nav">    <!-- Footer Navigation -->
 			<?php
