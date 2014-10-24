@@ -1,7 +1,5 @@
 <?php
 
-<div class="wrapper">
-
 	get_header();
 
 	if (have_posts()) :
@@ -21,10 +19,6 @@
 
 	<?php get_sidebar("right"); ?>
 
-	get_footer();
-
-</div>
-
-?>
+<?php get_footer(); ?>
 
 

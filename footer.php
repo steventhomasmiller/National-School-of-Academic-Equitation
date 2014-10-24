@@ -1,4 +1,4 @@
-	<footer class="site-footer">
+<footer class="site-footer">
 
 	<div id="footer-address">
 		<ul>
@@ -6,7 +6,18 @@
 			<li>11901 215th Place SE</li>
 			<li>Snohomish, WA 98296</li>
 			<li>nsae@classical-equitation.com</li>
+		</ul>
 	</div>
+
+	<div class="row">
+    <div class="span2">...</div>
+    <div class="span2">...</div>
+    <div class="span2">...</div>
+    <div class="span2">...</div>
+    <div class="span2">...</div>
+    <div class="span2">...</div>
+    </div>
+
 		<nav class="site-nav">    <!-- Footer Navigation -->
 			<?php
 				$args = array( 'theme_location' => 'footer' );

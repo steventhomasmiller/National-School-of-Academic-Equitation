@@ -47,8 +47,15 @@ article.post:last-of-type {
 }
 #footer-address {
   width: 100%;
-  text-alignment: center;
-  text-decoration: none;
+  background-color: #D3D3D3;
+}
+#footer-address ul {
+  margin: auto;
+  list-style: none;
+  text-align: center;
+}
+#footer-widget {
+  width: 100%;
 }
 /* Menus */
 .site-nav ul {
