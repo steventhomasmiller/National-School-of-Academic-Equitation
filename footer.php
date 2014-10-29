@@ -1,6 +1,6 @@
 <div class="blank-divider"></div>
 <footer class="container-fluid">
-
+s
 	<div id="footer-address">
 		<ul>
 			<li><h5>The National School of Academic Equitation</h5></li>

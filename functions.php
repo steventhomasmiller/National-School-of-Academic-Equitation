@@ -41,6 +41,18 @@ register_sidebar(array(
 	"after_title" => "</h3>"
 ));
 
+//left sidebar
+
+register_sidebar(array(
+	"name" => "Left Sidebar",
+	"id" => "left-sidebar",
+	"description" => "This is where the address will go",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+	"before_title" => "<h3 class='widget_title'>",
+	"after_title" => "</h3>"
+));
+
 //footer left
 
 register_sidebar(array(
