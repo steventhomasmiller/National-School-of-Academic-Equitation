@@ -1,4 +1,5 @@
-<footer class="site-footer">
+<div class="blank-divider"></div>
+<footer class="container-fluid">
 
 	<div id="footer-address">
 		<ul>
@@ -7,26 +8,29 @@
 			<li>Snohomish, WA 98296</li>
 			<li>nsae@classical-equitation.com</li>
 		</ul>
-	</div>
 
-<div id="footer-widget">
-	<div class="row">
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    </div>
-</div>
 
-		<nav class="site-nav">    <!-- Footer Navigation -->
-			<?php
-				$args = array( 'theme_location' => 'footer' );
-				?>
-			<?php wp_nav_menu( $args ); ?>
-		</nav>
-			<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
+				<nav class="site-nav-foot">    <!-- Footer Navigation -->
+					<?php
+						$args = array( 'theme_location' => 'footer' );
+						?>
+					<?php wp_nav_menu( $args ); ?>
+				</nav>
+					<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
+
+
+	</div>	
+
+	<!--<div class="row">
+    <div class="col-md-2">Home</div>
+    <div class="col-md-2">Craig Stevens</div>
+    <div class="col-md-2">Mary Anne Campbell</div>
+    <div class="col-md-2">Instruction</div>
+    <div class="col-md-2">Catalog</div>
+    <div class="col-md-2">Clinic Tours</div>
+    </div>-->
+
+		
 	</footer>
 
 </div><!-- container -->
