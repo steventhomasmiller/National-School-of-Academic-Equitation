@@ -22,7 +22,7 @@ s
 	</div>	
 
 	<!--<div class="row">
-    <div class="col-md-2">Home</div>
+    <div class="col-md-2"></div>
     <div class="col-md-2">Craig Stevens</div>
     <div class="col-md-2">Mary Anne Campbell</div>
     <div class="col-md-2">Instruction</div>
@@ -34,9 +34,6 @@ s
 	</footer>
 
 </div><!-- container -->
-
-<?php wp_footer(); ?>
-
 
 <script src="//localhost:35729/livereload.js"></script>
 </body>

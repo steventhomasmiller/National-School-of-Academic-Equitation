@@ -5,9 +5,13 @@ Template Name: contact template
 
 get_header(); ?>
 
-<div class="row">
-    <div class="span6"><!-- ****** column 1 ****** -->
-                        <p><h2><?php the_title(); ?></h2>
+<div class="content-main">
+
+
+<p><h2><?php the_title(); ?></h2>
+<div class="row-fluid">
+    <div class="col-md-6"><!-- ****** column 1 ****** -->
+                        
                         The National School of Academic Equitation<br />
                         11901 215th Place SE<br />
                         Snohomish, WA 98296<br />
@@ -16,7 +20,7 @@ get_header(); ?>
                         Just thirty minutes from Seattle.</p>
     </div>
 
-    <div class="span6"><!-- ****** column 2 ****** -->
+    <div class="col-md-6"><!-- ****** column 2 ****** -->
                         <p>Appointments for new visitors<br />
                         can be made by email or telephone.</p><br />
                         <p>nsae@classical-equitation.com<br />
@@ -24,9 +28,10 @@ get_header(); ?>
     </div>
 </div><!-- end first row -->
 
-    <div class="row">
-                        <dive class="span12"><p>Please don't come unannounced -- we do occasionally take some time off site, and we would hate to miss you.</p></div>
-    </dive>
+    <div class="row-fluid">
+                        <dive class="col-lg-12"><p>Please don't come unannounced -- we do occasionally take some time off site, and we would hate to miss you.</p></div>
+    </div>
+
 
 <?php 
 
@@ -42,5 +47,5 @@ if (have_posts()) :
     else : 
         echo '<p>No content found</p>';
     endif; ?>
-
+</div>
 <?php get_footer(); ?>
