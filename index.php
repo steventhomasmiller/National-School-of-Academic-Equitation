@@ -18,10 +18,11 @@
 		?>
 
 	<div class="row">
-		<div class="col-md-4"><?php get_sidebar("right"); ?></div>
-		<div class="col-md-4"><?php get_sidebar("center"); ?></div>
 		<div class="col-md-4"><?php get_sidebar("left"); ?></div>
+		<div class="col-md-4"><?php get_sidebar("center"); ?></div>
+		<div class="col-md-4"><?php get_sidebar("right"); ?></div>
 	</div>
+	
 
 <?php get_footer(); ?>
 

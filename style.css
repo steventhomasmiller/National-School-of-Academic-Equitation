@@ -2436,6 +2436,16 @@ article.post {
 article.post:last-of-type {
   border-bottom: none;
 }
+/* Sidebars and Widgets */
+.left-sidebar.home {
+  float: left;
+}
+.center-sidebar.home {
+  margin-left: 10px;
+}
+.right-sidebar.home {
+  float: right;
+}
 /* header */
 .site-header {
   border-bottom: 2px solid #999;
