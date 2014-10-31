@@ -27,6 +27,15 @@ register_sidebar(array(
 	"after_title" => "</h3>"
 ));
 
+register_sidebar(array(
+	"name" => "Contact Right Sidebar",
+	"id" => "conract-right-sidebar",
+	"description" => "This will be on the right",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+	"before_title" => "<h3 class='widget_title'>",
+	"after_title" => "</h3>"
+));
 
 //center sidebar
 

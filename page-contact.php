@@ -48,4 +48,7 @@ if (have_posts()) :
         echo '<p>No content found</p>';
     endif; ?>
 </div>
+<div id="contact-sidebar">
+<?php dynamic_sidebar("Contact Right Sidebar"); ?>
+</div>
 <?php get_footer(); ?>
