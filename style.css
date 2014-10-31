@@ -2436,11 +2436,12 @@ article.post {
 article.post:last-of-type {
   border-bottom: none;
 }
-/* Sidebars and Widgets */
+/* Sidebars and Widgets — These styles are placeholder for now. */
 .left-sidebar.home {
   float: left;
   border: 2px solid #cdea1c;
   padding: 8px;
+  margin-left: 10px;
 }
 .center-sidebar.home {
   margin-left: 32px;
