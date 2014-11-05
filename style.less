@@ -26,6 +26,13 @@ p {
 }
 
 /* General layout */
+
+.header{
+  float: left;
+  margin: 0 30px 0 30px;
+  background: #fff; //Not proud of this, but only using this style until I find a proper solution.
+}
+
 div.container {
 	max-width: 960px;
 	margin: 0 auto;
@@ -99,8 +106,10 @@ article.post:last-of-type {
 
 /* Menus */
 .site-nav ul {
-	margin: 0;
+	margin: -2px; // A little weird, I know, but this should be OK for now.
 	padding: 0;
+  background-color: rgba(128, 128, 128, 0.68);
+  border: 1px solid black;
 }
 
 .site-nav ul:before, 
@@ -130,7 +139,7 @@ article.post:last-of-type {
 .site-header nav ul li a:visited {
 	display: block;
 	padding: 10px 18px;
-	border: 1px solid #BBB;
+	//border: 1px solid #BBB;
 	border-bottom: none;
 	text-decoration: none;
 }

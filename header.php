@@ -13,7 +13,7 @@
 
 	<!-- site header -->
 	<header class="site-header">
-		<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+		<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a><a href="<?php bloginfo("url")?>"><img class="header" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Main photo" /></a></h1>
 		<h5><?php bloginfo('description'); ?></h5>
 			<nav class="site-nav"><!-- ***** Header Navigation ***** -->
 				<?php
