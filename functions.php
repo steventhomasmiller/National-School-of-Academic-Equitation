@@ -21,6 +21,14 @@ register_nav_menus(array(
 	set_post_thumbnail_size(200,200, true);
 	add_theme_support( 'custom-header', $args );
 
+//Post excerpts
+
+	function excerpt_read_more_link($output) {
+ 	global $post;
+ 	return $output . '<a href="'. get_permalink($post->ID) . '"> Read More...</a>';
+	}
+	add_filter('the_excerpt', 'excerpt_read_more_link');
+
 //Right sidebar
 
 register_sidebar(array(
