@@ -1855,6 +1855,7 @@ table th[class*="col-"] {
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
+  background-color: #342518 !important;
   color: #333;
 }
 a:link,
@@ -1872,9 +1873,7 @@ p {
 }
 div.container-fluid {
   max-width: 960px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: #EDE6D2;
 }
 /* ----------------Page Layout ----------------- */
 article.page h2 {
@@ -1923,20 +1922,17 @@ ul.recent_posts_with_excerpts p {
   border-bottom: 2px solid #999;
 }
 /* -----------------------footer-------------------------- */
+footer.container-fluid {
+  margin-right: -15px;
+  margin-left: -15px;
+}
 .site-footer {
-  clear: both;
-  margin-top: 30px;
+  background-color: #33030F;
+  color: #EDE6D2;
 }
 /*Footer Menu*/
 .site-footer nav ul li {
-  margin-right: 10px;
-  padding-right: 10px;
-  border-right: 1px dotted #BBB;
   text-decoration: none;
-}
-#footer-address {
-  width: 100%;
-  background-color: #D3D3D3;
 }
 #footer-address ul {
   margin: auto;
