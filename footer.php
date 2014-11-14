@@ -38,5 +38,8 @@
 </div><!-- container -->
 
 <script src="//localhost:35729/livereload.js"></script>
+
+	wp_footer();
+
 </body>
 </html>
