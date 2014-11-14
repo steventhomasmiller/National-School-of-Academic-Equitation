@@ -9,7 +9,7 @@
 
 <body <?php body_class(); ?>>
 
-<div class="container">
+<div class="container-fluid">
 
 	<!-- site header -->
 	<header class="site-header">

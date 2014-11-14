@@ -9,17 +9,6 @@
 		</ul>
 	</div>
 
-<div id="footer-widget">
-	<div class="row">
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    <div class="span2">...</div>
-    </div>
-</div>
-
 		<nav class="site-nav">    <!-- Footer Navigation -->
 			<?php
 				$args = array( 'theme_location' => 'footer' );
@@ -27,7 +16,7 @@
 			<?php wp_nav_menu( $args ); ?>
 		</nav>
 			<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
-	</footer>
+</footer>
 
 </div><!-- container -->
 
