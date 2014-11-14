@@ -5,6 +5,11 @@ Author URI: http://badger37.com/itc210/clientstagingarea.html
 Version: 1.0
 */
 
+/* Media Queries */
+
+@import "./bootstrap/bootstrap.less";
+
+
 body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
@@ -20,12 +25,24 @@ p {
 	line-height: 1.65em;
 }
 
-/* General layout */
-div.container-fluid {
+/* ---------------General layout-------------------- */
+
+.header{
+  float: left;
+  margin: 0 30px 0 30px;
+  background: #fff; //Not proud of this, but only using this style until I find a proper solution.
+}
+
+div.container-fluid{
 	max-width: 960px;
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+/* ----------------Page Layout ----------------- */
+article.page h2 {
+  font-size: 200%;
 }
 
 article.post {
@@ -40,12 +57,47 @@ article.post:last-of-type {
   clear: both;
 }
 
-/* header */
+/* Sidebars and Widgets — These styles are placeholder for now. */
+
+.left-sidebar.home{
+  float: left;
+  border: 2px solid rgb(205, 234, 28);
+  padding: 8px;
+}
+
+.center-sidebar.home{
+  border: 2px solid aqua;
+  padding: 0px 6px 8px 18px;
+}
+
+.right-sidebar.home{
+  float: right;
+  border: 2px solid red;
+  padding: 0px 12px 5px 18px;
+  margin-right: 11px;
+} 
+
+/* Widget style plugins */
+
+/*h2.recent_posts_with_excerpts{
+	font-size: 1em;
+	list-style: none;
+}
+
+ul.recent_posts_with_excerpts{
+	list-style: none;
+}
+
+ul.recent_posts_with_excerpts p {
+	font-size: 2em;
+} */ 
+
+/* ----------------------header------------------------- */
 .site-header {
 	border-bottom: 2px solid #999;
 }
 
-/* footer */
+/* -----------------------footer-------------------------- */
 .site-footer {
   clear: both;
 	margin-top: 30px;
@@ -74,10 +126,12 @@ article.post:last-of-type {
 	width: 100%;
 }
 
-/* Menus */
+/* -------------------- Nav Menus-------------------------- */
 .site-nav ul {
-	margin: 0;
+	margin: -2px; // A little weird, I know, but this should be OK for now.
 	padding: 0;
+  background-color: rgba(128, 128, 128, 0.68);
+  border: 1px solid black;
 }
 
 .site-nav ul:before, 
@@ -98,16 +152,11 @@ article.post:last-of-type {
 	float: left;
 }
 
-/* Header Menu */
-.site-header nav ul li {
-	margin-right: 5px;
-}
-
 .site-header nav ul li a:link,
 .site-header nav ul li a:visited {
 	display: block;
 	padding: 10px 18px;
-	border: 1px solid #BBB;
+	//border: 1px solid #BBB;
 	border-bottom: none;
 	text-decoration: none;
 }
@@ -122,14 +171,8 @@ article.post:last-of-type {
 	color: #000;
 }
 
-/* Page Layout */
-article.page h2 {
-	font-size: 200%;
-}
 
-/* Media Queries */
-
-@import "bootstrap/bootstrap";
+/* Contact Form Styles */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -492,4 +535,13 @@ body {
 }
 body h1 {
   color: #000000;
+}
+
+input[type="text"],
+input[type="email"],
+textarea
+{
+    background-color: #fff;
+    color: #000;
+    width: 50%;
 }

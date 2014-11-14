@@ -5,8 +5,10 @@ Template Name: contact template
 
 get_header(); ?>
 
-<div class="row-fluid">
 <h2><?php the_title(); ?></h2><!-- title of page -->
+
+<div class="row-fluid">
+
     <div class="col-md-6"><!-- ****** column 1 ****** -->
                         <p>
                         The National School of Academic Equitation<br />
@@ -35,7 +37,8 @@ get_header(); ?>
 <div class="row-fluid"><!-- map and form -->
 
     <div class="col-md-8">
-        <?php get_post(); ?><p> there is a call for get_post(id) once we have the id for the map inside a col-md-8</p>
+        <?php get_post();?> 
+        <p> there is a call for get_post(id) once we have the id for the map inside a col-md-8</p>
     </div>
     <div class="col-md-4">
         <?php get_post(); ?><p> there is a call for the form post here, or hand code the form here</p>
