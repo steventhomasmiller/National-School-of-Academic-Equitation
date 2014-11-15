@@ -1865,6 +1865,9 @@ a:visited {
 p {
   line-height: 1.65em;
 }
+div.border {
+  border: 1px solid;
+}
 /* ---------------General layout-------------------- */
 .header {
   float: left;
@@ -1887,6 +1890,21 @@ article.post:last-of-type {
 }
 .clear-fix {
   clear: both;
+}
+.pad-fix {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.pad-fix2 {
+  padding-right: -15px !important;
+}
+.backg {
+  background-color: #33030F;
+  color: #EDE6D2;
+}
+.mr {
+  margin-right: -8px;
+  margin-top: -8px;
 }
 /* Sidebars and Widgets — These styles are placeholder for now. */
 .left-sidebar.home {
@@ -1923,6 +1941,7 @@ ul.recent_posts_with_excerpts p {
 }
 /* -----------------------footer-------------------------- */
 footer.container-fluid {
+  margin-top: 15px;
   margin-right: -15px;
   margin-left: -15px;
 }

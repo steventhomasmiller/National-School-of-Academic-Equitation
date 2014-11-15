@@ -37,7 +37,7 @@ get_header(); ?>
 <div class="row-fluid"><!-- map and form -->
 
     <div class="col-md-8">
-        <?php get_post();?> 
+        <?php echo do_shortcode("[ic_add_posts ids='49']");?> 
         <p> there is a call for get_post(id) once we have the id for the map inside a col-md-8</p>
     </div>
     <div class="col-md-4">
