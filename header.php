@@ -7,7 +7,6 @@
 		<?php wp_enqueue_script(“jquery”); ?>
 		<?php wp_head(); ?>
 	</head>
-
 <body <?php body_class(); ?>>
 
 				<!-- **************** placed this code outside of our work area until i get it working properly *********** -->
