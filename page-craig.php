@@ -8,7 +8,7 @@ Template Name: craig template
 get_header(); ?>
 
 <div class="row-fluid">
-				<!--<div class="col-md-12">-->
+				<div class="col-md-12">
 
 				<?php
 					$my_id = 14;
@@ -19,7 +19,7 @@ get_header(); ?>
 					echo $content;
 				?>
 
-				<!--</div>-->
+				</div>
 
 
 </div>
