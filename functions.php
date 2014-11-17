@@ -125,8 +125,8 @@ register_sidebar(array(
 ));
 
 register_sidebar(array(
-	"name" => "Craig Right Sidebar2",
-	"id" => "craig-right-sidebar2",
+	"name" => "Craig Center Sidebar",
+	"id" => "craig-center-sidebar",
 	"description" => "This will be on craig page right",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div>",

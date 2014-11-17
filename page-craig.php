@@ -33,9 +33,9 @@ get_header(); ?>
 				
 					<div class="row-fluid"><!-- ************ nested column ************** -->
 
-						<div class="col-sm-6 pad-fix"><?php dynamic_sidebar( 'craig-right-sidebar' ); ?></div><!-- column center -->
+						<div class="col-sm-6 pad-fix heading-fix"><?php dynamic_sidebar( 'craig-center-sidebar' ); ?></div><!-- column center -->
 																													
-						<div class="col-sm-6 pad-fix"><?php dynamic_sidebar( 'craig-right-sidebar2' ); ?></div><!-- column right -->
+						<div class="col-sm-6 pad-fix heading-fix"><?php dynamic_sidebar( 'craig-right-sidebar' ); ?></div><!-- column right -->
 
 					</div>
 		</div>
