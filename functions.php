@@ -1,5 +1,7 @@
 <?php 
 
+require_once('wp_bootstrap_navwalker.php');
+
 function wordpress_resources() {
 
 	wp_enqueue_style('style', get_stylesheet_uri());
@@ -10,7 +12,7 @@ add_action('wp_enqueue_scripts', 'wordpress_resources');
 
 //Navigation Menu
 register_nav_menus(array(
-	'primary' => __( 'Primary Menu' ),
+	'primary' => __( 'Primary Menu', 'NSAE Theme'),
 	'footer' => __( 'Footer Menu' ),
 
 ));
@@ -106,8 +108,8 @@ register_sidebar(array(
 	"name" => "Craig left Sidebar",
 	"id" => "craig-left-sidebar",
 	"description" => "This will be on craig page left",
-	"before_widget" => "<div class='widget'>",
-	"after_widget" => "</div>",
+	//"before_widget" => "<div class='widget'>",
+	//"after_widget" => "</div>",
 	"before_title" => "<h3 class='widget_title'>",
 	"after_title" => "</h3>"
 ));
@@ -121,4 +123,15 @@ register_sidebar(array(
 	"before_title" => "<h3 class='widget_title'>",
 	"after_title" => "</h3>"
 ));
+
+register_sidebar(array(
+	"name" => "Craig Right Sidebar2",
+	"id" => "craig-right-sidebar2",
+	"description" => "This will be on craig page right",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+	"before_title" => "<h3 class='widget_title'>",
+	"after_title" => "</h3>"
+));
+
 ?>
