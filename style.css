@@ -2518,6 +2518,9 @@ article.post:last-of-type {
   background-color: #33030F;
   color: #EDE6D2;
 }
+.article-bkg {
+  background-color: #F8F5ED;
+}
 .mr {
   margin-right: -8px;
   margin-top: -8px;
@@ -2620,6 +2623,28 @@ footer.container-fluid {
 .site-header nav ul li.current-menu-item a:visited {
   background-color: #DCDCDC;
   color: #000;
+}
+ul.xoxo {
+  margin-left: -45px;
+}
+ul.xoxo li {
+  list-style: none;
+}
+ul.xoxo li a {
+  display: inline;
+  font-size: 1.4em;
+  line-height: 25px;
+  color: #A7841C;
+}
+ul.xoxo li a:after {
+  content: "\a";
+  white-space: pre;
+}
+ul.xoxo li:after {
+  line-height: 2em;
+}
+.heading-fix h3 {
+  font-size: 1.6em;
 }
 /* Contact Form Styles */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -2987,5 +3012,5 @@ input[type="email"],
 textarea {
   background-color: #fff;
   color: #000;
-  width: 90%;
+  width: 50%;
 }
