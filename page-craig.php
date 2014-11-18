@@ -11,9 +11,9 @@ get_header(); ?>
 				<div class="col-md-12">
 
 				<?php
-					$my_id = 14;
-					$post_id_14 = get_post($my_id);
-					$content = $post_id_14->post_content;
+					$my_id = 62;
+					$post_id_62 = get_post($my_id);
+					$content = $post_id_62->post_content;
 					$content = apply_filters('the_content', $content);
 					$content = str_replace(']]>', ']]>', $content);
 					echo $content;
