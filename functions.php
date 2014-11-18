@@ -1,7 +1,5 @@
 <?php 
 
-require_once('wp_bootstrap_navwalker.php');
-
 function wordpress_resources() {
 
 	wp_enqueue_style('style', get_stylesheet_uri());
