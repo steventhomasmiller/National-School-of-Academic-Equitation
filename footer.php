@@ -26,6 +26,7 @@
 	</footer>
 
 </div><!-- container -->
+
 <script src="//localhost:35729/livereload.js"></script>
 </body>
 </html>
