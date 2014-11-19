@@ -2583,7 +2583,18 @@ article.post:last-of-type {
   margin: 10px 10px 10px 0;
   border: solid 2px #999380;
   padding: 0 5px;
-  float: left;
+}
+.middle-home {
+  background-color: #F2EDDE;
+  margin: 10px 10px 10px 0;
+  border: solid 2px #999380;
+  padding: 0 5px;
+}
+.post-feed {
+  background-color: #33030F;
+  color: #A7841C;
+  margin: 0px -5px;
+  padding: 15px 5px;
 }
 /* Widget style plugins */
 /*h2.recent_posts_with_excerpts{

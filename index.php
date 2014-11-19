@@ -19,7 +19,35 @@
 
 	<div class="row">
 		<div class="col-md-4"><?php get_sidebar("left"); ?></div>
-		<div class="col-md-4"><?php get_sidebar("center"); ?></div>
+		<div class="col-md-4 post-feed"><h2>News</h2>
+
+<?php 
+// the query
+$the_query = new WP_Query( 'category_name=news' ); ?>
+
+<?php if ( $the_query->have_posts() ) : ?>
+
+	<!-- pagination here -->
+
+	<!-- the loop -->
+	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+		<h4><?php the_title(); ?></h4>
+		<?php the_time('F jS, Y') ?>
+		<?php the_excerpt("view more"); ?>
+	<?php endwhile; ?>
+	<!-- end of the loop -->
+
+	<!-- pagination here -->
+
+	<?php wp_reset_postdata(); ?>
+
+<?php else : ?>
+	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif; ?>
+
+</div>
+
+
 		<div class="col-md-4"><?php get_sidebar("right"); ?></div>
 	</div>
 	
