@@ -26,16 +26,20 @@ get_header(); ?>
 
 <div class="row-fluid">
 
-	<div class="col-md-4 col-sm-4 backg wht-lttr"><?php dynamic_sidebar('craig-left-sidebar'); ?></div>
-			
-		<div class="col-sm-8"> <?php echo do_shortcode('[wonderplugin_slider id="1"]'); ?>
-
+	<div class="col-md-4 col-sm-4 pull-left backg wht-lttr"><?php dynamic_sidebar('craig-left-sidebar'); ?></div>
+</div>
+		<div class="row-fluid">
+			<div class="col-md-8 col-sm-8 col-xs-12 pull-right"> <?php echo do_shortcode('[wonderplugin_slider id="1"]'); ?>
+		</div>
 				
 					<div class="row-fluid"><!-- ************ nested column ************** -->
 
-						<div class="col-sm-6 heading-fix article-bkg"><?php dynamic_sidebar( 'craig-center-sidebar' ); ?></div><!-- column center -->
-																													
-						<div class="col-sm-6 heading-fix article-bkg"><?php dynamic_sidebar( 'craig-right-sidebar' ); ?></div><!-- column right -->
+						<div class="col-md-4 col-sm-4 col-xs-12 pull-left article-bkg marg-top"><?php dynamic_sidebar( 'craig-center-sidebar' ); ?></div><!-- column center -->
+					</div>
+
+
+					<div class="row-fluid">
+						<div class="col-md-4 col-sm-4 col-xs-12 pull-right article-bkg marg-top"><?php dynamic_sidebar( 'craig-right-sidebar' ); ?></div><!-- column right -->
 
 					</div>
 		</div>

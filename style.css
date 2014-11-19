@@ -2551,10 +2551,6 @@ article.post:last-of-type {
 .article-bkg {
   background-color: #F8F5ED;
 }
-.mr {
-  margin-right: -8px;
-  margin-top: -8px;
-}
 .wht-lttr h3 {
   color: #A7841C;
 }
@@ -2629,44 +2625,51 @@ footer.container-fluid {
   width: 100%;
 }
 /* -------------------- Nav Menus-------------------------- */
-.site-nav ul {
-  margin: -2px;
-  padding: 0;
+/*.site-nav ul {
+	margin: -2px; // A little weird, I know, but this should be OK for now.
+	padding: 0;
   background-color: rgba(128, 128, 128, 0.68);
   border: 1px solid black;
 }
-.site-nav ul:before,
-.site-nav ul:after {
-  content: "";
-  display: table;
+
+.site-nav ul:before, 
+.site-nav ul:after { 
+	content: ""; display: table; 
 }
-.site-nav ul:after {
-  clear: both;
+
+.site-nav ul:after { 
+	clear: both; 
 }
-.site-nav ul {
-  *zoom: 1;
+
+.site-nav ul { 
+	*zoom: 1; 
 }
+
 .site-nav ul li {
-  list-style: none;
-  float: left;
+	list-style: none;
+	float: left;
 }
+
 .site-header nav ul li a:link,
 .site-header nav ul li a:visited {
-  display: block;
-  padding: 10px 18px;
-  border-bottom: none;
-  text-decoration: none;
+	display: block;
+	padding: 10px 18px;
+	//border: 1px solid #BBB;
+	border-bottom: none;
+	text-decoration: none;
 }
+
 .site-header nav ul li a:hover {
-  background-color: #F0F8FF;
+	background-color: #F0F8FF;
 }
+
 .site-header nav ul li.current-menu-item a:link,
 .site-header nav ul li.current-menu-item a:visited {
-  background-color: #DCDCDC;
-  color: #000;
-}
+	background-color: #DCDCDC;
+	color: #000;
+}*/
 #main-nav {
-  /*--finally found a way to get the nav working, kept old nav class above, just in case */
+  /* --finally found a way to get the nav working, kept old nav class above, just in case -- */
   height: 30px;
   margin: 0 0 10px;
 }
@@ -2717,29 +2720,10 @@ footer.container-fluid {
 ul.xoxo li {
   list-style: none;
 }
-/*ul.xoxo {
-  margin-left: -45px;
+.marg-top {
+  /* needed for margin above articles-columns under slider and to create separation in smaller page width */
+  margin-top: 10px;
 }
-
-ul.xoxo li a {
-  display: inline;
-  font-size: 1.4em;
-  line-height: 25px;
-  color: #A7841C;
-}
-
-ul.xoxo li a:after {
-  content: "\a";
-  white-space: pre;
-}
-
-ul.xoxo li:after {
-  line-height: 2em;
-}
-
-.heading-fix h3{
-  font-size: 1.6em;
-}*/
 /* Contact Form Styles */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
