@@ -37,8 +37,8 @@ register_sidebar(array(
 	"description" => "This will be on the right",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div>",
-	"before_title" => "<h3 class='widget_title'>",
-	"after_title" => "</h3>"
+	"before_title" => "<h2 class='widget_title'>",
+	"after_title" => "</h2>"
 ));
 
 register_sidebar(array(
@@ -47,8 +47,8 @@ register_sidebar(array(
 	"description" => "This will be on the right",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div>",
-	"before_title" => "<h3 class='widget_title'>",
-	"after_title" => "</h3>"
+	"before_title" => "<h2 class='widget_title'>",
+	"after_title" => "</h2>"
 ));
 
 //center sidebar
@@ -60,8 +60,8 @@ register_sidebar(array(
 	"description" => "This is where the address will go",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div>",
-	"before_title" => "<h3 class='widget_title'>",
-	"after_title" => "</h3>"
+	"before_title" => "<h2 class='widget_title'>",
+	"after_title" => "</h2>"
 ));
 
 //left sidebar
@@ -72,8 +72,8 @@ register_sidebar(array(
 	"description" => "This is where the address will go",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div>",
-	"before_title" => "<h3 class='widget_title'>",
-	"after_title" => "</h3>"
+	"before_title" => "<h2 class='widget_title'>",
+	"after_title" => "</h2>"
 ));
 
 //footer left
@@ -84,8 +84,8 @@ register_sidebar(array(
 	"description" => "This will be for the sitemap",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div>",
-	"before_title" => "<h3 class='widget_title'>",
-	"after_title" => "</h3>"
+	"before_title" => "<h2 class='widget_title'>",
+	"after_title" => "</h2>"
 	
 ));
 
