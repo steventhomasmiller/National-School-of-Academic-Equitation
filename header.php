@@ -32,4 +32,4 @@
 				</div>
 		</div><!-- /header row -->
 	</div><!-- end header container -->
-			<div class="container-fluid">
+<div class="container-fluid content-pad-bottom">

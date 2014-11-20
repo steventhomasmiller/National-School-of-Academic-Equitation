@@ -30,7 +30,7 @@ get_header(); ?>
 </div>
 		<div class="row-fluid">
 			<div class="col-md-8 col-sm-8 col-xs-12 pull-right"> <?php echo do_shortcode('[wonderplugin_slider id="1"]'); ?>
-		</div>
+			</div>
 				
 					<div class="row-fluid"><!-- ************ nested column ************** -->
 
@@ -44,7 +44,6 @@ get_header(); ?>
 					</div>
 		</div>
 
-</div>
 
 
 <?php

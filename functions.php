@@ -131,4 +131,61 @@ register_sidebar(array(
 	"before_title" => "<h3 class='widget_title'>",
 	"after_title" => "</h3>"
 ));
+
+register_sidebar(array(
+	"name" => "Footer Menu 1",
+	"id" => "footer-1",
+	"description" => "This will be on left, number 1 position",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+));
+
+register_sidebar(array(
+	"name" => "Footer Menu 2",
+	"id" => "footer-2",
+	"description" => "This will be on left, number 2 position",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+));
+
+register_sidebar(array(
+	"name" => "Footer Menu 3",
+	"id" => "footer-3",
+	"description" => "This will be on left, number 3 position",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+));
+
+register_sidebar(array(
+	"name" => "Footer Menu 4",
+	"id" => "footer-4",
+	"description" => "This will be in the center, number 4 position",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+));
+
+register_sidebar(array(
+	"name" => "Footer Menu 5",
+	"id" => "footer-5",
+	"description" => "This will be on the right, number 5 position",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+));
+
+register_sidebar(array(
+	"name" => "Footer Menu 6",
+	"id" => "footer-6",
+	"description" => "This will be on the right, number 6 position",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+));
+
+register_sidebar(array(
+	"name" => "Footer Menu 7",
+	"id" => "footer-7",
+	"description" => "This will be on second tier, number 7 position",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div>",
+));
+
 ?>
