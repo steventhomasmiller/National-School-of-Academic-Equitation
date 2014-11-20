@@ -47,7 +47,11 @@
 									<?php dynamic_sidebar('footer-6'); ?>
 							</div>
 				</div><!--   ~~~~ end footer row 1 ~~~~ -->
-	
+		<div class="row-fluid">
+			<div class="col-md-12 col-xs-1">
+				<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
+			</div>
+		</div>
 
 </div>
 
