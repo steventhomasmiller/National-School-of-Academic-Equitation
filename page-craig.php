@@ -10,10 +10,7 @@ get_header(); ?>
 <div class="row-fluid">
 
 	<div class="col-md-12">
-		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<?php
-				// $ID = 68;
-				
 				$my_id = 62;
 				$post_id_62 = get_post($my_id);
 				$content = $post_id_62->post_content;
