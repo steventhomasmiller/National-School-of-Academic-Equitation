@@ -32,7 +32,7 @@ get_header(); ?>
 
 			<div class="col-md-8 column">
 
-				<?php echo do_shortcode('[wonderplugin_slider id="1"]'); ?>
+				<img src="http://www.equitationstage.dreamhosters.com/wp-content/uploads/2014/11/craigOnHorse.jpg">
 
 
 			</div>
@@ -60,8 +60,6 @@ get_header(); ?>
 
 					</div>
 				</div>
-
-
 
 
 <?php

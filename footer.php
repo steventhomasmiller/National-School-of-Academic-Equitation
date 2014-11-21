@@ -6,7 +6,7 @@
 
 		<div class="clearfix">
 			
-				<p class="center"><a href="#"><img src="http://www.equitationstage.dreamhosters.com/wp-content/uploads/2014/11/footer-logo.png"></a></p>
+				<p class="center"><a href="#"><img src="http://www.equitationstage.dreamhosters.com/wp-content/uploads/2014/11/logo-transparent-white-e1416545052273.png"></a></p>
 			
 		</div>
 
