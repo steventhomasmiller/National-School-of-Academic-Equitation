@@ -20,6 +20,7 @@
 <div class="quicklinks"> 
 <a href="#" >Quicklinks</a>  <!-- dropdown -->
 </div>
+</div>
 
 		<nav id="main-nav"><!-- ***** wp nav array ***** -->
 		<?php
@@ -29,10 +30,6 @@
 		           	wp_nav_menu( $args);
 		       ?>
 		</nav>
-
-</div>
-
-
 
 </header>
 
