@@ -2,7 +2,8 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
-		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<title><?php bloginfo('name'); ?></title>
 		<?php wp_enqueue_script(“jquery”); ?>
 		<?php wp_head(); ?>
@@ -10,26 +11,30 @@
 <body <?php body_class(); ?>>
 
 	
-	<div class="container-fluid"><!-- header container -->
-		<div class="row-fluid"> <!-- header row -->
+<header>
+<div class="header-max">
+<img src="http://localhost:8888/nsae/wordpress/wp-content/uploads/2014/11/logo-header.png"  alt="NSAE Logo" class="logo">
 
-			<div class=".col-md-6">
-				<h1>
-					<a href="<?php bloginfo("url")?>"><img class="header" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Main photo" /></a></h1>
-					<a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-				<h5><?php bloginfo('description'); ?></h5>
-			</div>
+<h1>The National School of Academic Equitation</h1>
+<h2>Classical Horsemanship for the Modern Rider</h2>
+<div class="quicklinks"> 
+<a href="#" >Quicklinks</a>  <!-- dropdown -->
+</div>
 
-				<div class=".col-md-6">
-						<nav id="main-nav"><!-- ***** wp nav array ***** -->
-							<?php
-								$args = array( 'theme_location' => 'primary' );
-							?>
-							 <?php
-					            	wp_nav_menu( $args);
-					        ?>
-						</nav>
-				</div>
-		</div><!-- /header row -->
-	</div><!-- end header container -->
-<div class="container-fluid content-pad-bottom">
+		<nav id="main-nav"><!-- ***** wp nav array ***** -->
+		<?php
+		$args = array( 'theme_location' => 'primary' );
+		?>
+		<?php
+		           	wp_nav_menu( $args);
+		       ?>
+		</nav>
+
+</div>
+
+
+
+</header>
+
+
+<div class="container-fluid clear-left position-rel pad-bottom">

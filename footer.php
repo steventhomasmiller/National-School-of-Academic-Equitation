@@ -4,23 +4,19 @@
 
 <div class="container-fluid backg">
 
-		<div class="row-fluid clearfix">
-			<div class="col-md-4 col-md-offset-4">
-				<a href="#"><img src="http://www.equitationstage.dreamhosters.com/wp-content/uploads/2014/11/footer-logo.png"></a>
-			</div>
+		<div class="clearfix">
+			
+				<p class="center"><a href="#"><img src="http://www.equitationstage.dreamhosters.com/wp-content/uploads/2014/11/footer-logo.png"></a></p>
+			
 		</div>
 
-		<div class="row-fluid clearfix">
-			<div class="col-md-6 col-md-offset-4 list-style-none">
-				<address>
-				  <h3>The National School of Academic Equitation</h3>
-				  11901 215th Place S.E.<br>
+
+				  <h3 class="lttr">The National School of Academic Equitation</h3>
+				  <p class="center">11901 215th Place S.E.<br>
 				  Snohomish, WA 98296<br>
-				  <abbr title="Phone"></abbr> (360) 668-5242<br>
-				  <a href="mailto:#">first.last@example.com</a>
-				</address>			
-			</div>
-		</div>
+				  (360) 668-5242<br>
+				  <a href="mailto:#">first.last@example.com</p></a>
+
 
 				<div class="row-fluid widget-title-hidden footer-font pad-fix">
 							<div class="col-md-2 footer-1">
@@ -52,9 +48,7 @@
 				<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
 			</div>
 		</div>
-
 </div>
-
 
 <script src="//localhost:35729/livereload.js"></script>
 </body>
