@@ -16,27 +16,25 @@
 
 			<div class="header-max">
 				<div class="logo">
-				<a href=""><h1><img src="http://localhost:8888/nsae/wordpress/wp-content/uploads/2014/11/logo-header.png" alt="NSAE Logo"></h1></a>
+				<h1><a href="#"><img src="http://localhost:8888/nsae/wordpress/wp-content/uploads/2014/11/logo-header.png" alt="NSAE Logo"></a></h1>
 				</div>
 					
 						<div class="heading-text">
 							<h1>The National School of Academic Equitation</h1>
 							<h2>Classical Horsemanship for the Modern Rider</h2>
+							<div class="quicklinks">
+								<a href="#" >Quicklinks</a> <!-- dropdown -->
+							</div>
 						</div>
 
-				<div class="quicklinks">
-					<a href="#" >Quicklinks</a> <!-- dropdown -->
-				</div>
-
 				<div>
-					<div class="menu-header"><!-- ***** wp nav array ***** -->
+					<nav><!-- ***** wp nav array ***** -->
 						<?php
-						$args = array( 'theme_location' => 'primary' );
+							if (function_exists('widgetize_my_dropdown_menus')) {
+							widgetize_my_dropdown_menus('primary');
+							} 
 						?>
-						<?php
-						wp_nav_menu( $args);
-						?>
-					</div>
+					</nav>
 				</div>
 
 			</div><!--header max -->
