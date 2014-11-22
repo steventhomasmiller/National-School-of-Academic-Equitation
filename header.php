@@ -16,7 +16,7 @@
 
 			<div class="header-max">
 				<div class="logo">
-				<h1><img src="http://localhost:8888/nsae/wordpress/wp-content/uploads/2014/11/logo-header.png" alt="NSAE Logo"></h1>
+				<a href=""><h1><img src="http://localhost:8888/nsae/wordpress/wp-content/uploads/2014/11/logo-header.png" alt="NSAE Logo"></h1></a>
 				</div>
 					
 						<div class="heading-text">
