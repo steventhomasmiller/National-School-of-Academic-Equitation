@@ -114,19 +114,37 @@ article.post:last-of-type {
   float: left;
 }
 
-.center-sidebar.home{
+/* not sure this is needed now .center-sidebar.home{
   background-color: #F2EDDE;
   margin: 10px 10px 10px 0;
 	border: solid 2px #999380;
 	padding: 0 5px;
 	float: left;
-}
+} */
 
 .right-sidebar.home{
   background-color: #F2EDDE;
   margin: 10px 10px 10px 0;
   border: solid 2px #999380;
   padding: 0 5px;
+
+  .widget_header {
+  	background-color: #CAB67C;
+  	font-size: 1em !important;
+  }
+
+  .textwidget{
+  	background-color: #CAB67C;
+	padding: 2px 5px 10px;
+	margin-bottom: 5px;
+  }
+
+  .textwidget_last { /* This is not ideal. Any suggestions?? */
+  	background-color: #F2EDDE;
+	margin: -2px -5px -10px -7px;
+	padding: 10px 5px;
+  }
+
 }
 
 .middle-home{
@@ -137,13 +155,33 @@ article.post:last-of-type {
 }
 
 .post-feed{
+	background-color: #F2EDDE;
+	margin: 10px 0px 10px 0;
+	border: solid 2px #999380;
+	padding: 0 5px;
+	float: left;
+
+	h2 {
 	background-color: #33030F;
 	color: #A7841C;
 	margin: 0px -5px;
 	padding: 15px 5px;
-}
-  .widget_title {
+	}
 
+	.date{
+	padding-left: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #000;
+	font-size: .7em;
+	font-variant: inherit;
+	}
+}
+  .calendar {
+  	background-color: #F2EDDE;
+	margin: 10px 10px 10px 0;
+	border: solid 2px #999380;
+	padding: 0 5px;
+	float: left;
   }
  
 

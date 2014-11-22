@@ -1,4 +1,3 @@
-
 <?php
 
 	get_header();
@@ -49,9 +48,33 @@ $the_query = new WP_Query( 'category_name=news' ); ?>
 </div>
 
 
-		<div class="col-md-4"><?php get_sidebar("right"); ?>
+		<div class="col-md-4 calendar"><h2>Upcoming Events</h2>
+			<?php echo do_shortcode("[gcal id='39']"); ?>
+
+			<?php 
+// the query
+$the_query = new WP_Query( 'category_name=events' ); ?>
+
+<?php if ( $the_query->have_posts() ) : ?>
+
+	<!-- pagination here -->
+
+	<!-- the loop -->
+	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+		</h4><a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?> </a></h4>
+	<?php endwhile; ?>
+	<!-- end of the loop -->
+
+	<!-- pagination here -->
+
+	<?php wp_reset_postdata(); ?>
+
+<?php else : ?>
+	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif; ?>
+
 		</div>
-	</div>
+</div>
 	
 
 <?php get_footer(); ?>

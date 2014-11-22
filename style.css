@@ -2567,18 +2567,33 @@ article.post:last-of-type {
   padding: 0 5px;
   float: left;
 }
-.center-sidebar.home {
+/* not sure this is needed now .center-sidebar.home{
   background-color: #F2EDDE;
   margin: 10px 10px 10px 0;
-  border: solid 2px #999380;
-  padding: 0 5px;
-  float: left;
-}
+	border: solid 2px #999380;
+	padding: 0 5px;
+	float: left;
+} */
 .right-sidebar.home {
   background-color: #F2EDDE;
   margin: 10px 10px 10px 0;
   border: solid 2px #999380;
   padding: 0 5px;
+}
+.right-sidebar.home .widget_header {
+  background-color: #CAB67C;
+  font-size: 1em !important;
+}
+.right-sidebar.home .textwidget {
+  background-color: #CAB67C;
+  padding: 2px 5px 10px;
+  margin-bottom: 5px;
+}
+.right-sidebar.home .textwidget_last {
+  /* This is not ideal. Any suggestions?? */
+  background-color: #F2EDDE;
+  margin: -2px -5px -10px -7px;
+  padding: 10px 5px;
 }
 .middle-home {
   background-color: #F2EDDE;
@@ -2587,10 +2602,31 @@ article.post:last-of-type {
   padding: 0 5px;
 }
 .post-feed {
+  background-color: #F2EDDE;
+  margin: 10px 0px 10px 0;
+  border: solid 2px #999380;
+  padding: 0 5px;
+  float: left;
+}
+.post-feed h2 {
   background-color: #33030F;
   color: #A7841C;
   margin: 0px -5px;
   padding: 15px 5px;
+}
+.post-feed .date {
+  padding-left: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: .7em;
+  font-variant: inherit;
+}
+.calendar {
+  background-color: #F2EDDE;
+  margin: 10px 10px 10px 0;
+  border: solid 2px #999380;
+  padding: 0 5px;
+  float: left;
 }
 /* Widget style plugins */
 /*h2.recent_posts_with_excerpts{
