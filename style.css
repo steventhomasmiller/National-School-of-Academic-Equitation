@@ -2742,9 +2742,6 @@ header h2 {
   box-shadow: 0 0 8px #22020A;
   background-color: #33030f;
 }
-.widgetized-nav ul li {
-  background-color: #33030f !important;
-}
 section {
   width: 32%;
   background-color: #F2EDDE;
