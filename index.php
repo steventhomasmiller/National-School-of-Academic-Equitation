@@ -47,12 +47,37 @@ $the_query = new WP_Query( 'category_name=news' ); ?>
 <?php endif; ?>
 
 </div>
+			
+<div class="col-md-3 calendar-sidebar">
+	<h2>Upcoming Events</h2>
+			<?php  
+// the query
+$the_query = new WP_Query( 'category_name=events' ); ?>
 
+<?php if ( $the_query->have_posts() ) : ?>
 
-		<div class="col-md-4"><?php get_sidebar("right"); ?>
-		</div>
+	<!-- pagination here -->
+
+	<!-- the loop -->
+	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+		<div class="calendar-item"><h4><?php the_excerpt('See more', FALSE); ?> </h4>
+		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+
+	<?php endwhile; ?>
+	<!-- end of the loop -->
+
+	<!-- pagination here -->
+
+	<?php wp_reset_postdata(); ?>
+
+<?php else : ?>
+	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif; ?>
+<?php get_sidebar("right"); ?>
 	</div>
-	
+	</div> 
+</div>
+		
 
 <?php get_footer(); ?>
 

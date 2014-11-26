@@ -1,3 +1,4 @@
+
 <?php
 
 	get_header();
@@ -31,9 +32,9 @@ $the_query = new WP_Query( 'category_name=news' ); ?>
 
 	<!-- the loop -->
 	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-		<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+		<div class="calendar-item"><h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 		<span class="date"><?php the_time('F jS, Y') ?></span></h4>
-		<?php the_excerpt("See more"); ?>
+		<?php the_excerpt(); ?>
 	<?php endwhile; ?>
 	<!-- end of the loop -->
 
@@ -46,12 +47,10 @@ $the_query = new WP_Query( 'category_name=news' ); ?>
 <?php endif; ?>
 
 </div>
-
-
-		<div class="col-md-4 calendar"><h2>Upcoming Events</h2>
-			<?php echo do_shortcode("[gcal id='39']"); ?>
-
-			<?php 
+			
+<div class="col-md-3 calendar-sidebar">
+	<h2>Upcoming Events</h2>
+			<?php  
 // the query
 $the_query = new WP_Query( 'category_name=events' ); ?>
 
@@ -61,7 +60,9 @@ $the_query = new WP_Query( 'category_name=events' ); ?>
 
 	<!-- the loop -->
 	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-		</h4><a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?> </a></h4>
+		<h4><?php the_excerpt('See more', FALSE); ?> </h4>
+		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+
 	<?php endwhile; ?>
 	<!-- end of the loop -->
 
@@ -72,10 +73,10 @@ $the_query = new WP_Query( 'category_name=events' ); ?>
 <?php else : ?>
 	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
-
-		</div>
+	</div>
+	</div> 
 </div>
-	
+		
 
 <?php get_footer(); ?>
 

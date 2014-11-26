@@ -2590,7 +2590,7 @@ article.post:last-of-type {
   margin-bottom: 5px;
   line-height: 1em;
 }
-.right-sidebar.home .textwidget_last {
+.textwidget_last {
   /* This is not ideal. Any suggestions?? */
   background-color: #F2EDDE;
   margin: -2px -5px -10px -7px;
@@ -2621,6 +2621,19 @@ article.post:last-of-type {
   color: #000;
   font-size: .7em;
   font-variant: inherit;
+}
+.calendar-sidebar {
+  background-color: #F2EDDE;
+  margin: 10px 10px 10px 25px;
+  border: solid 2px #999380;
+  padding: 0 5px;
+  width: 285px;
+}
+.calendar-item {
+  background-color: #CAB67C;
+  padding: 1px 10px;
+  margin-bottom: 5px;
+  line-height: 1em;
 }
 /* Widget style plugins */
 /*h2.recent_posts_with_excerpts{
