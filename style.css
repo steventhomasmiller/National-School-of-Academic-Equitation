@@ -2563,6 +2563,9 @@ article.post:last-of-type {
 .content-pad-bottom {
   padding-bottom: 10px;
 }
+.home-gallery {
+  margin-bottom: 28px;
+}
 /* Sidebars and Widgets */
 .left-sidebar.home {
   background-color: #F2EDDE;
