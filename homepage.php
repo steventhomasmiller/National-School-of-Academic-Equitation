@@ -8,7 +8,7 @@ Template Name: Home Page
 	get_header();?>
 
 	<div class="row-fluid">
-			<div class="col-md-12 home-gallery"><?php echo do_shortcode('[wonderplugin_carousel id="2"]'); ?></div> <!-- Insert gallery code here -->
+			<div class="col-md-12 home-gallery"><?php echo do_shortcode('[wonderplugin_slider id="2"]'); ?></div> <!-- Insert gallery code here -->
 
 	<div class="row">
 		<div class="col-md-4"><?php get_sidebar("left"); ?></div>
@@ -42,7 +42,7 @@ $the_query = new WP_Query( 'category_name=news' ); ?>
 			
 <div class="col-md-4 calendar-sidebar"> <!-- Pay attention to this!!! -->
 		<h2>Upcoming Events</h2>
-	<?php echo do_shortcode("[gcal id='69']");?> <!-- Make sure the id matches the feed --> 
+	<?php echo do_shortcode("[gcal id='39']");?> <!-- Make sure the id matches the feed --> 
 			<?php  
 // the query
 $the_query = new WP_Query( array(
