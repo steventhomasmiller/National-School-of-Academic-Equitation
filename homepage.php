@@ -42,7 +42,7 @@ $the_query = new WP_Query( 'category_name=news' ); ?>
 			
 <div class="col-md-4 calendar-sidebar"> <!-- Pay attention to this!!! -->
 		<h2>Upcoming Events</h2>
-	<?php echo do_shortcode("[gcal id='39']");?> 
+	<?php echo do_shortcode("[gcal id='69']");?> <!-- Make sure the id matches the feed --> 
 			<?php  
 // the query
 $the_query = new WP_Query( array(
