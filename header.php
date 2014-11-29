@@ -11,8 +11,6 @@
 <body <?php body_class(); ?>>
 
 
-
-
 <header>
 <div class="header-max">
 	<div class="logoShadow">
@@ -38,4 +36,4 @@
 </div><!--header max -->				
 </header>
 
-<div class="container-fluid clear-left position-rel pad-bottom">
+<div class="container-fluid clear-left pad-bottom">
