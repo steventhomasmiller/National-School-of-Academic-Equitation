@@ -19,6 +19,7 @@ add_action( 'admin_bar_init', 'remove_admin_bar_space' );
 register_nav_menus(array(
 	'primary' => __( 'Primary Menu', 'NSAE Theme'),
 	'footer' => __( 'Footer Menu' ),
+	'quicklinks' => __( 'Quicklinks' ),
 
 ));
 

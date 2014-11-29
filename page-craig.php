@@ -23,7 +23,7 @@ get_header(); ?>
 </div>
 
 		<div class="row-fluid"><!-- craig page left sidebar -->
-			<div class="col-md-4 column backg wht-lttr">
+			<div class="col-md-4 column backg wht-lttr left-craig">
 
 				<?php dynamic_sidebar('craig-left-sidebar');?>
 
