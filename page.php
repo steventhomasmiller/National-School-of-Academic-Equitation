@@ -1,6 +1,17 @@
 <?php
+/*
+Template Name: page template
+*/
+get_header(); ?>
 
-get_header();
+		<?php
+		global $more;
+		$more = 0;
+		?>
+
+		<?php the_content('Continue Reading'); ?>
+
+<?php
 
 if (have_posts()) :
 	while (have_posts()) : the_post(); ?>

@@ -7,7 +7,7 @@ get_header(); ?>
 
 <div class="row-fluid">
 
-	<div class="col-md-12">
+	<div class="col-md-12 pad-bottom">
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

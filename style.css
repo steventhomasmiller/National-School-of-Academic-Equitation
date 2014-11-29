@@ -2507,8 +2507,8 @@ article.post:last-of-type {
   padding-right: -15px !important;
 }
 .pad-bottom {
-  padding-bottom: 10px;
-  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-top: 35px;
 }
 .backg {
   background-color: #33030F !important;
@@ -2670,8 +2670,8 @@ header h2 {
   margin-bottom: -40px;
   z-index: 1;
 }
-.logoShadow :before,
-.logoShadow :after {
+.logoShadow:before,
+.logoShadow:after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -2685,7 +2685,7 @@ header h2 {
   -moz-border-radius: 31px;
   border-radius: 31px;
 }
-.logoShadow :after {
+.logoShadow:after {
   right: 10px;
   left: auto;
   -webkit-transform: skew(8deg) rotate(3deg);

@@ -17,7 +17,6 @@ get_header(); ?>
 	<div class="row-fluid clearfix">
 		<div class="col-md-12 column sidespacing">
 
-
 					<?php
 					if (have_posts()) :
 					while (have_posts()) : the_post(); ?>
