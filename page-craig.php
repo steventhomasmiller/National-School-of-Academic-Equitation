@@ -1,69 +1,74 @@
 <?php
-
 /*
 Template Name: craig template
 */
-
-
 get_header(); ?>
+
 
 <div class="row-fluid">
 
 	<div class="col-md-12">
-			<?php
-				$my_id = 62;
-				$post_id_62 = get_post($my_id);
-				$content = $post_id_62->post_content;
-				$content = apply_filters('the_content', $content);
-				$content = str_replace(']]>', ']]>', $content);
-				echo $content;
-			?>
+
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+		<article id="post-<?php the_ID(); ?>" class="post">
+
+		<h2><?php the_title(); ?></h2>
+		<?php the_content(''); ?>
+		</article>
+
+		<?php endwhile; endif; ?>
+
 	</div>
 
 </div>
 
-
-		<div class="row-fluid">
+		<div class="row-fluid"><!-- craig page left sidebar -->
 			<div class="col-md-4 column backg wht-lttr">
 
 				<?php dynamic_sidebar('craig-left-sidebar');?>
 
 			</div>
-
-			<div class="col-md-8 column">
-
-				<img src="http://www.equitationstage.dreamhosters.com/wp-content/uploads/2014/11/craigOnHorse.jpg">
-
-
-			</div>
 		</div>
 
-				<div class="row-fluid">
+<div class="row-fluid">
+  <div class="col-sm-8" id="craig-row-right"><!-- slider -->
+  	<img src="http://placehold.it/618x400">
 
-					<div class="col-md-4">
+			<div class="row-fluid"><!-- nested row -->
 
-						<div class="gap-maker-1 article-bkg">
+					<div class="col-xs-12 col-sm-6 article-bkg" id="center-craig">
+						<div><!-- craig page center sidebar -->
 
 							<?php dynamic_sidebar( 'craig-center-sidebar' ); ?>
 
 						</div>
+					</div>
+
+							<div class="col-xs-12 col-sm-6 article-bkg" id="right-craig">
+								<div><!-- craig page right sidebar -->
+
+									<?php dynamic_sidebar( 'craig-right-sidebar' ); ?>
+
+								</div>
+							</div>
+
+
+							<div class="col-md-6"><!--nested under row-->
+
+								<p>this is stuff</p>
+
+							</div>
+
+					<div class="col-md-6"><!--nested under row-->
+
+						<p>this is stuff</p>
 
 					</div>
 
-					<div class="col-md-4">
+			</div><!-- end nested row -->
 
-						<div class="gap-maker-2 article-bkg">
+  </div>
+</div>
 
-							<?php dynamic_sidebar( 'craig-right-sidebar' ); ?>
-
-						</div>
-
-					</div>
-				</div>
-
-
-<?php
-
-get_footer();
-
-?>
+<?php get_footer(); ?>

@@ -10,35 +10,32 @@
 </head>
 <body <?php body_class(); ?>>
 
-		<header>
-					
-			<div class="nav-wrap"></div> <!-- creates the full width with box shadow, tucked behind logo -->
 
-			<div class="header-max">
-				<div class="logo">
-				<h1><a href="#"><img src="http://localhost:8888/nsae/wordpress/wp-content/uploads/2014/11/logo-header.png" alt="NSAE Logo"></a></h1>
-				</div>
-					
-						<div class="heading-text">
-							<h1>The National School of Academic Equitation</h1>
-							<h2>Classical Horsemanship for the Modern Rider</h2>
-							<div class="quicklinks">
-								<a href="#" >Quicklinks</a> <!-- dropdown -->
-							</div>
-						</div>
 
-				<div>
-					<nav><!-- ***** wp nav array ***** -->
-						<?php
-							if (function_exists('widgetize_my_dropdown_menus')) {
-							widgetize_my_dropdown_menus('primary');
-							} 
-						?>
-					</nav>
-				</div>
 
-			</div><!--header max -->
-				
-		</header>
+<header>
+<div class="header-max">
+	<div class="logoShadow">
+		<div class="logoBackground">
+			<img src="http://www.equitationstage.dreamhosters.com/wp-content/uploads/2014/11/logo-transparent-black-e1416957287241.png" alt="NSAE Logo" class="logo">
+		</div>
+	</div>
+
+	<h1>The National School of Academic Equitation</h1>
+	<h2>Classical Horsemanship for the Modern Rider</h2>
+		<div class="quicklinks"> 
+		<a href="#" >Quicklinks</a>  <!-- dropdown -->
+		</div>
+			
+			<nav>
+				<?php
+					if (function_exists('widgetize_my_dropdown_menus')) {
+					widgetize_my_dropdown_menus('primary');
+					} 
+				?>
+			</nav>		
+
+</div><!--header max -->				
+</header>
 
 <div class="container-fluid clear-left position-rel pad-bottom">
