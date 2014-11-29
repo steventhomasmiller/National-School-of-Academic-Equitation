@@ -38,4 +38,4 @@
 </div><!--header max -->				
 </header>
 
-<div class="container-fluid position-rel clear-left pad-bottom">
+<div class="container-fluid position-rel pad-bottom clearfix">
