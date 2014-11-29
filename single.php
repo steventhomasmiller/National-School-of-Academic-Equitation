@@ -7,12 +7,6 @@ Template Name: single page template
 get_header(); ?>
 
 
-
-
-
-
-
-
 <div class="container-fluid">
 	<div class="row-fluid clearfix">
 		<div class="col-md-12 column sidespacing">
@@ -31,7 +25,6 @@ get_header(); ?>
 					else : 
 					echo '<p>No content found</p>';
 					endif;?>
-
 
 
 		</div>

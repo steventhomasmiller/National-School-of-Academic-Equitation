@@ -259,32 +259,59 @@ header {
       }
 }
 
-  header h1 {
-    padding-left: 30px;
-    font-variant: small-caps;
-    display: inline-block;
-  }
-  header h2 {
-    color: #A7841c;
-    margin-bottom: 10px;
-    display: inline-block;
-    padding-left: 30px;
-    font-variant: small-caps;
+header h1 {
+  padding-left: 30px;
+  font-variant: small-caps;
+  display: inline-block;
+    @media (max-width: 800px) {
+        float: left;
+      } 
+    @media (max-width: 640px) {
+        clear: both;
+        visibility: hidden;
+        margin-top: -50px;
+      } 
+    @media only screen and (max-width: 400px) {
+        visibility: hidden;
+        //margin-top:-200px;
+    }        
+}
+
+header h2 {
+  color: #A7841c;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-left: 30px;
+  font-variant: small-caps;
+}
+
+.header-max {
+  margin:auto;
+  max-width: 980px;
+  width: 100%;
+    @media only screen and (min-width: 641px)  and (max-width: 959px){
+        margin:auto;
+        max-width: 980px;
+        width:100%;        
+    @media (max-width: 640px) {
+      margin:auto;
+      max-width: 640px;
+      width:100%; 
     }
+    @media (max-width: 400px) {
+      margin:auto;
+      max-width: 640px;
+      width:100%; 
+    }
+  }    
+}
 
-  .header-max {
-    margin:auto;
-    max-width: 980px;
-    width: 100%;
-
-  }
-
-  .heading-text {
-    left: 15px;
-    float: right;
-    padding-right: 15px;
-    padding-top: 30px;
-  }
+.heading-text {
+  left: 15px;
+  float: right;
+  padding-right: 15px;
+  padding-top: 30px;
+}
 
 .logoShadow {
   width: 22.5%;
@@ -387,13 +414,18 @@ header {
 /* -------------------- Nav Menus-------------------------- */
 
 .nav-wrap {
-  position: absolute;
+  position: relative;
   bottom: 0px;
   right: 0;
   width: 100%;
-  height: 50px;
+  height: 42px;
   box-shadow: 0 0 8px #22020A;
   background-color: #33030f;
+    @media (max-width: 768px){
+      a {
+        color: #fff;
+      }
+    }
 }
 
 // --------------------- craigs page --------------------- //

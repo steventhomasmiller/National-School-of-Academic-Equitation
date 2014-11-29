@@ -25,15 +25,17 @@
 		<a href="#" >Quicklinks</a>  <!-- dropdown -->
 		</div>
 			
+		<div class="nav-wrap">
 			<nav>
 				<?php
 					if (function_exists('widgetize_my_dropdown_menus')) {
 					widgetize_my_dropdown_menus('primary');
 					} 
 				?>
-			</nav>		
+			</nav>	
+		</div>	
 
 </div><!--header max -->				
 </header>
 
-<div class="container-fluid clear-left pad-bottom">
+<div class="container-fluid position-rel clear-left pad-bottom">
