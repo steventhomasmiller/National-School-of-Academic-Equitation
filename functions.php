@@ -7,13 +7,12 @@ function wordpress_resources() {
 }
 
 add_action('wp_enqueue_scripts', 'wordpress_resources');
-
+add_action( 'admin_bar_init', 'remove_admin_bar_space' );
+add_theme_support( 'woocommerce' );
 
 function remove_admin_bar_space () {
     remove_action( 'wp_head', '_admin_bar_bump_cb' );
 }
-add_action( 'admin_bar_init', 'remove_admin_bar_space' );
-
 
 //Navigation Menu
 register_nav_menus(array(
