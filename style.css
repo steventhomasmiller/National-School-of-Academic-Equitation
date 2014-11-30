@@ -2895,6 +2895,30 @@ header h2 {
 .clear-left {
   clear: left;
 }
+.footer a:link {
+  color: #ede6d2;
+}
+.footer a:link:visited {
+  color: #ede6d2;
+}
+.footer a:link:hover {
+  color: #a7841c;
+}
+.footer a:link:active {
+  color: #a7841c;
+}
+.footer-menu ul li a {
+  color: #ede6d2 ;
+}
+.footer-menu ul li a:visited {
+  color: #ede6d2;
+}
+.footer-menu ul li a:hover {
+  color: #a7841c;
+}
+.footer-menu ul li a:active {
+  color: #a7841c;
+}
 /* -------------------- Nav Menus-------------------------- */
 .nav-wrap {
   position: relative;
@@ -2946,9 +2970,6 @@ section {
 .sectionPop {
   background-color: #33030F;
   color: #fff;
-}
-ul.xoxo li {
-  list-style: none;
 }
 aside {
   background-color: #F2EDDE;

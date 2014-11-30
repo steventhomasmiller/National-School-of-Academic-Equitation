@@ -2,7 +2,7 @@
 
 </div><!-- container -->
 
-<div class="container-fluid backg">
+<div class="container-fluid backg footer">
 
 		<div class="clearfix">
 			
@@ -15,31 +15,31 @@
 				  <p class="center">11901 215th Place S.E.<br>
 				  Snohomish, WA 98296<br>
 				  (360) 668-5242<br>
-				  <a href="mailto:#">first.last@example.com</p></a>
+				  <a href="mailto:nsae@classical-equitation.com">nsae@classical-equitation.com</p></a>
 
 
 				<div class="row-fluid widget-title-hidden footer-font pad-fix">
-							<div class="col-md-2 footer-1">
+							<div class="col-md-2 footer-1 footer-menu">
 									<?php dynamic_sidebar('footer-1'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-2">
+							<div class="col-md-2 footer-2 footer-menu">
 									<?php dynamic_sidebar('footer-2'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-3">
+							<div class="col-md-2 footer-3 footer-menu">
 									<?php dynamic_sidebar('footer-3'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-4">
+							<div class="col-md-2 footer-4 footer-menu">
 									<?php dynamic_sidebar('footer-4'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-5">
+							<div class="col-md-2 footer-5 footer-menu">
 									<?php dynamic_sidebar('footer-5'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-6">
+							<div class="col-md-2 footer-6 footer-menu">
 									<?php dynamic_sidebar('footer-6'); ?>
 							</div>
 				</div><!--   ~~~~ end footer row 1 ~~~~ -->
