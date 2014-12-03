@@ -15,7 +15,7 @@
 <div class="header-max">
 	<div class="logoShadow">
 		<div class="logoBackground">
-			<a href="<?php echo get_site_url(); ?>"><img src="http://www.equitationstage.dreamhosters.com/wp-content/uploads/2014/11/logo-transparent-black-e1416957287241.png" alt="NSAE Logo" class="logo"></a>
+			<a href="<?php echo get_settings('home'); ?>"><img src="http://www.equitationstage.dreamhosters.com/wp-content/uploads/2014/11/logo-transparent-black-e1416957287241.png" alt="NSAE Logo" class="logo"></a>
 		</div>
 	</div>
 
