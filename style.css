@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Halant);
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
 /*
 Theme Name: NSAE Theme
 Author: Chris Badger, Steve Miller, Ellen Tackett, Doreen Jones
@@ -2577,8 +2579,8 @@ h4,
 h5,
 h6 {
   font-variant: small-caps;
-  font-family: "Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-  letter-spacing: .8px;
+  font-family: Cinzel, "Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  letter-spacing: .5px;
   color: #450414;
   font-weight: 300;
 }
@@ -2849,7 +2851,6 @@ header h2 {
 .logoBackground {
   width: 222px;
   height: 215px;
-  margin-bottom: -40px;
   background-color: #ede6d2;
 }
 .quicklinks {
@@ -2883,8 +2884,10 @@ header h2 {
   background-color: #33030f;
 }
 nav {
+  margin: auto;
   z-index: 100;
   position: relative;
+  font-family: "Gill std", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 /* -----------------------footer-------------------------- */
 .list-style-none ul li {
@@ -2909,11 +2912,12 @@ nav {
   display: none;
 }
 .lttr {
-  color: #ede6d2;
+  color: #fff;
   text-align: center;
 }
 .center {
   text-align: center;
+  color: #fff;
 }
 .obj-center {
   margin: auto;
@@ -2922,10 +2926,10 @@ nav {
   clear: left;
 }
 .footer a:link {
-  color: #ede6d2;
+  color: #fff;
 }
 .footer a:link:visited {
-  color: #ede6d2;
+  color: #fff;
 }
 .footer a:link:hover {
   color: #a7841c;
@@ -2934,10 +2938,10 @@ nav {
   color: #a7841c;
 }
 .footer-menu ul li a {
-  color: #ede6d2 ;
+  color: #fff;
 }
 .footer-menu ul li a:visited {
-  color: #ede6d2;
+  color: #fff;
 }
 .footer-menu ul li a:hover {
   color: #a7841c;

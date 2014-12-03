@@ -8,6 +8,8 @@ Version: 1.0
 /* Media Queries */
 
 @import "./bootstrap/bootstrap.less";
+@import url(http://fonts.googleapis.com/css?family=Halant);
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -68,8 +70,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-variant:small-caps;
-  font-family: "Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-  letter-spacing: .8px;
+  font-family:   Cinzel, "Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  letter-spacing: .5px;
   color: #450414;
   font-weight: 300;
   }
@@ -393,7 +395,7 @@ header h2 {
 .logoBackground {
   width: 222px;
   height: 215px;
-  margin-bottom: -40px;
+  // margin-bottom: -40px;
   background-color: #ede6d2;
 }
 
@@ -430,8 +432,10 @@ header h2 {
 }
 
 nav {
+  margin: auto;
   z-index: 100;
   position: relative;
+  font-family: "Gill std", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 /* -----------------------footer-------------------------- */
 
@@ -462,12 +466,13 @@ nav {
 }
 
 .lttr{
-  color: #ede6d2;
+  color: #fff;
   text-align: center;
  }
 
 .center {
   text-align: center;
+  color: #fff;
 }
 
 .obj-center {
@@ -480,9 +485,9 @@ nav {
 
 
 .footer a:link {
-    color: #ede6d2;
+    color: #fff;
   &:visited {
-      color: #ede6d2;
+      color: #fff;
     }
   &:hover {
       color: #a7841c;
@@ -493,9 +498,9 @@ nav {
 }
 
 .footer-menu ul li a {
-    color: #ede6d2 ;
+    color: #fff;
   &:visited {
-      color: #ede6d2;
+      color: #fff;
     }
   &:hover {
       color: #a7841c;

@@ -45,7 +45,7 @@
 							</div>
 				</div><!--   ~~~~ end footer row 1 ~~~~ -->
 		<div class="row-fluid">
-			<div class="col-md-12 col-xs-1 text-small">
+			<div class="col-md-12 col-xs-1 text-small lttr">
 				<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?> all rights reserved. Site created by (credits here).</p>
 			</div>
 		</div>
