@@ -16,6 +16,7 @@
 				  Snohomish, WA 98296<br>
 				  (360) 668-5242<br>
 				  <a href="mailto:nsae@classical-equitation.com">nsae@classical-equitation.com</p></a>
+				  <br />
 
 
 				<div class="row-fluid widget-title-hidden footer-font pad-fix">
