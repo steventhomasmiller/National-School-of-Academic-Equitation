@@ -2993,6 +2993,9 @@ aside {
 .marg-right {
   margin-right: 15px;
 }
+.bio-post-title a {
+  color: #A7841C;
+}
 /*  ----- list page -----   */
 .button-row {
   vertical-align: bottom;
