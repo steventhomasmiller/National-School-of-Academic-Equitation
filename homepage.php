@@ -11,8 +11,11 @@ Template Name: Home Page
 			<div class="col-md-12 home-gallery"><?php echo do_shortcode('[wonderplugin_slider id="2"]'); ?></div> <!-- Insert gallery code here -->
 
 	<div class="row">
-		<div class="col-md-4"><?php get_sidebar("left"); ?></div>
-		<div class="col-md-4 post-feed"><h2>News</h2>
+		<div class="col-md-4">
+			<?php get_sidebar("left"); ?></div>
+		<div class="col-md-4">
+			<div class="post-feed">
+			<h2>News</h2>
 
 <?php 
 // the query
@@ -39,11 +42,13 @@ $the_query = new WP_Query( 'category_name=news' ); ?>
 <?php endif; ?>
 
 </div>
+</div>
 			
-<div class="col-md-4 calendar-sidebar"> <!-- Pay attention to this!!! -->
+<div class="col-md-4">
+	<div class="calendar-sidebar">
+	 <!-- Pay attention to this!!! -->
 		<h2>Upcoming Events</h2>
-	<?php echo do_shortcode("[gcal id='69']");?> <!-- Change the id to 69 before pushing to live site --> 
-			<?php  
+		<?php  
 // the query
 $the_query = new WP_Query( array(
 	"category_name" => "events",
@@ -70,6 +75,8 @@ $the_query = new WP_Query( array(
 	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
 <?php get_sidebar("right"); ?>
+	
+	</div>
 	</div>
 	</div>
 	</div> 
