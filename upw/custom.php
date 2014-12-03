@@ -33,11 +33,11 @@
             <?php endif; ?>
 
             <?php if (get_the_title() && $instance['show_title']) : ?>
-              <h4 class="entry-title">
+              <h3 class="entry-title">
                 <a href="<?php the_permalink(); ?>" rel="bookmark">
                   <?php the_title(); ?>
                 </a>
-              </h4>
+              </h3>
             <?php endif; ?>
 
             <?php if ($instance['show_date'] || $instance['show_author'] || $instance['show_comments']) : ?>
