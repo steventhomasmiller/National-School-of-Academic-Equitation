@@ -2,7 +2,7 @@
 
 </div><!-- container -->
 
-<div class="container-fluid backg footer">
+<div class="container-fluid backg footer list-style-none">
 
 		<div class="clearfix">
 			
@@ -44,8 +44,8 @@
 							</div>
 				</div><!--   ~~~~ end footer row 1 ~~~~ -->
 		<div class="row-fluid">
-			<div class="col-md-12 col-xs-1">
-				<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
+			<div class="col-md-12 col-xs-1 text-small">
+				<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?> all rights reserved. Site created by (credits here).</p>
 			</div>
 		</div>
 </div>

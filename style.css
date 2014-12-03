@@ -2560,6 +2560,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.row-fluid ul,
+.row-fluid li {
+  padding-left: 10px;
+}
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -2869,12 +2873,22 @@ header h2 {
 }
 /* -----------------------footer-------------------------- */
 .list-style-none ul li {
-  margin: auto;
-  list-style: none;
-  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  font-size: 14px;
+  padding-bottom: 3px;
 }
 #footer-widget {
   width: 100%;
+}
+.footer-menu {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.text-small p {
+  font-size: 10px;
+  padding-top: 10px;
 }
 .widget-title-hidden h2 {
   display: none;
