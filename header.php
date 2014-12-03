@@ -19,23 +19,25 @@
 		</div>
 	</div>
 
+<div class="heading">
 	<h1>The National School of Academic Equitation</h1>
 	<h2>Classical Horsemanship for the Modern Rider</h2>
+</div>
+
 		<div class="quicklinks"> 
 		<a href="#" >Quicklinks</a>  <!-- dropdown -->
 		</div>
 			
-		<div class="nav-wrap">
-			<nav>
+</div><!--header max -->
+<div class="nav-wrap">
+	<nav>
 				<?php
 					if (function_exists('widgetize_my_dropdown_menus')) {
 					widgetize_my_dropdown_menus('primary');
 					} 
 				?>
-			</nav>	
-		</div>	
-
-</div><!--header max -->				
+			</nav>
+</div>			
 </header>
 
 <div class="container-fluid position-rel pad-bottom clearfix">
