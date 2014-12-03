@@ -2582,7 +2582,7 @@ h6 {
   font-family: Cinzel, "Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
   letter-spacing: .5px;
   color: #450414;
-  font-weight: 300;
+  font-weight: 500;
 }
 a:link,
 a:visited {
@@ -2750,6 +2750,9 @@ ul.recent_posts_with_excerpts p {
 	font-size: 2em;
 } */
 /* ----------------------header------------------------- */
+.tuck {
+  z-index: -5;
+}
 header {
   margin: auto;
   width: 100%;

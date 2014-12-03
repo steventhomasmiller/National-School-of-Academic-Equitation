@@ -40,4 +40,4 @@
 </div>			
 </header>
 
-<div class="container-fluid position-rel pad-bottom clearfix">
+<div class="container-fluid position-rel pad-bottom tuck clearfix">
