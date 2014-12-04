@@ -52,5 +52,35 @@
 </div>
 
 <script src="//localhost:35729/livereload.js"></script>
+		<script type="text/javascript">	
+		var timeout	    = 400;
+		var closetimer	= 0;
+		var listitem	= 0;
+
+		function quicklinkopen(id)
+		{	
+			quickcancelclosetimer();
+			if(listitem) listitem.style.visibility = 'hidden';
+			listitem = document.getElementById(id);
+			listitem.style.visibility = 'visible';
+		}
+			function quickclose()
+			{
+				if(listitem) listitem.style.visibility = 'hidden';
+			}
+		function quickclosetimer()
+		{
+			closetimer = window.setTimeout(quickclose, timeout);
+		}
+			function quickcancelclosetimer()
+			{
+				if(closetimer)
+				{
+					window.clearTimeout(closetimer);
+					closetimer = null;
+				}
+			}
+		document.onclick = quickclose; 
+		</script>
 </body>
 </html>

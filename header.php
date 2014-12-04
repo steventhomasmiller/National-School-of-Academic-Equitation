@@ -12,6 +12,7 @@
 
 
 <header>
+
 <div class="header-max">
 	<div class="logoShadow">
 		<div class="logoBackground">
@@ -24,20 +25,44 @@
 	<h2>Classical Horsemanship for the Modern Rider</h2>
 </div>
 
-		<div class="quicklinks"> 
-		<a href="#" >Quicklinks</a>  <!-- dropdown -->
+		<div class="quicklinks"> <!-- dropdown -->
+
+				<ul id="quickdrop">
+				    <li><a href="#" onmouseover="quicklinkopen('q1')" onmouseout="quickclosetimer()">Quicklinks</a>
+				        <div id="q1" onmouseover="quickcancelclosetimer()" onmouseout="quickclosetimer()">
+				        <a href="#">Clinic Tours</a>
+				        <a href="#">Quickpay Renewal</a>
+				        <a href="#">Craig's Gallery</a>
+<!--quicklinks-->		<a href="#">Mary Anne's Gallery</a>
+				        <a href="#">Comments and Testimonials</a>
+				        <a href="#">Affiliated Instructors</a>
+				        <a href="#">Resources</a>
+				        <a href="#">Foundation of Equestrian Arts</a>
+				        <a href="#">Other Stuff</a>
+				        </div>
+				    </li>
+				</ul>
 		</div>
 			
 </div><!--header max -->
+
 <div class="nav-wrap">
-	<nav>
+			<nav>
 				<?php
 					if (function_exists('widgetize_my_dropdown_menus')) {
 					widgetize_my_dropdown_menus('primary');
 					} 
 				?>
-			</nav>
-</div>			
+			</nav>		
+</div>
+
+<div class="trail-background">
+	<div class="trail">
+	<?php if(function_exists(simple_breadcrumb) && !is_front_page()) {simple_breadcrumb();} ?>
+	</div>
+</div>
+
 </header>
 
 <div class="container-fluid position-rel pad-bottom tuck clearfix">
+ 
