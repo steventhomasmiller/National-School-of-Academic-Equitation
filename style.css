@@ -2750,9 +2750,6 @@ ul.recent_posts_with_excerpts p {
 	font-size: 2em;
 } */
 /* ----------------------header------------------------- */
-.tuck {
-  z-index: -5;
-}
 header {
   margin: auto;
   width: 100%;
