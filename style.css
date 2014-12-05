@@ -2662,7 +2662,6 @@ article.post:last-of-type {
 /* Sidebars and Widgets */
 .left-sidebar.home {
   background-color: #dccea4;
-  margin: 10px 10px 10px 0;
   border: solid 2px #999380;
   padding: 0 5px;
   float: left;
@@ -2676,7 +2675,6 @@ article.post:last-of-type {
 } */
 .right-sidebar.home {
   background-color: #F2EDDE;
-  margin: 0px 10px 10px 0;
   border: none;
   padding: 0 5px;
 }

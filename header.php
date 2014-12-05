@@ -51,12 +51,6 @@
 		</nav>		
 	</div>
 
-	<div class="trail-background">
-		<div class="trail">
-			<?php if(function_exists(simple_breadcrumb) && !is_front_page()) {simple_breadcrumb();} ?>
-		</div>
-	</div>
-
 </header>
 
 <div class="container-fluid position-rel pad-bottom tuck clearfix">
