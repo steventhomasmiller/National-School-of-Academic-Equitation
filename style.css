@@ -2951,7 +2951,8 @@ nav {
 .trail {
   padding-left: 15px;
   position: relative;
-  left: 32.8%;
+  margin: auto;
+  left: 116px;
   width: 748px;
   background-color: #D4D6D8;
   box-shadow: inset 0 0 8px #22020A;
