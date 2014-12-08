@@ -51,7 +51,7 @@ $the_query = new WP_Query( 'category_name=news' ); ?>
 		<?php  
 // the query
 $the_query = new WP_Query( array(
-	"category_name" => "events",
+	"category_name" => "Events",
 	"post_status" => array( "published", "future" )
 ) ); ?>
 

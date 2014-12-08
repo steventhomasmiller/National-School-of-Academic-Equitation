@@ -2714,7 +2714,7 @@ article.post:last-of-type {
   padding: 15px 5px;
 }
 .post-feed .date {
-  padding-left: 50px;
+  padding-left: 5px;
   font-family: "Gill  std", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
   color: #000;
   font-size: .7em;
@@ -2733,6 +2733,22 @@ article.post:last-of-type {
   padding: 1px 10px 15px;
   margin-bottom: 5px;
   line-height: 1em;
+}
+.map {
+  margin-top: 16px;
+}
+.contact {
+  margin-top: 16px;
+}
+/* Contact form styles */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 90%;
 }
 /* Widget style plugins */
 /*h2.recent_posts_with_excerpts{
