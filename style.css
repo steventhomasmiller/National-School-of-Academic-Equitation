@@ -2606,13 +2606,6 @@ span.excerpt {
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: #333;
-  padding-top: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px solid #999380;
 }
 /* ---------------General layout-------------------- */
 .relative {
