@@ -20,32 +20,32 @@
 
 
 				<div class="row-fluid widget-title-hidden footer-font pad-fix">
-							<div class="col-md-2 footer-1 footer-menu">
+							<div class="col-md-2 col-sm-4 col-xs-6 footer-1 footer-menu">
 									<?php dynamic_sidebar('footer-1'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-2 footer-menu">
+							<div class="col-md-2 col-sm-4 col-xs-6  footer-2 footer-menu">
 									<?php dynamic_sidebar('footer-2'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-3 footer-menu">
+							<div class="col-md-2 col-sm-4 col-xs-6  footer-3 footer-menu">
 									<?php dynamic_sidebar('footer-3'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-4 footer-menu">
+							<div class="col-md-2 col-sm-4 col-xs-6  footer-4 footer-menu">
 									<?php dynamic_sidebar('footer-4'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-5 footer-menu">
+							<div class="col-md-2 col-sm-4 col-xs-6  footer-5 footer-menu">
 									<?php dynamic_sidebar('footer-5'); ?>
 							</div>
 								
-							<div class="col-md-2 footer-6 footer-menu">
+							<div class="col-md-2 col-sm-4 col-xs-6  footer-6 footer-menu">
 									<?php dynamic_sidebar('footer-6'); ?>
 							</div>
 				</div><!--   ~~~~ end footer row 1 ~~~~ -->
 		<div class="row-fluid">
-			<div class="col-md-12 col-xs-1 text-small lttr">
+			<div class="col-md-12 text-small lttr">
 				<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?> all rights reserved. Site created by (credits here).</p>
 			</div>
 		</div>

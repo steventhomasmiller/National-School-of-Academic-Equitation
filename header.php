@@ -26,22 +26,17 @@
 	</div>
 
 			<div class="quicklinks"> <!-- dropdown -->
-					<ul id="quickdrop">
-					    <li><a href="#" onmouseover="quicklinkopen('q1')" onmouseout="quickclosetimer()">Quicklinks</a>
-					        <div id="q1" onmouseover="quickcancelclosetimer()" onmouseout="quickclosetimer()">
-					        <a href="#">Clinic Tours</a>
-					        <a href="#">Quickpay Renewal</a>
-					        <a href="#">Craig's Gallery</a>
-	<!--quicklinks-->		<a href="#">Mary Anne's Gallery</a>
-					        <a href="#">Comments and Testimonials</a>
-					        <a href="#">Affiliated Instructors</a>
-					        <a href="#">Resources</a>
-					        <a href="#">Foundation of Equestrian Arts</a>
-					        <a href="#">Other Stuff</a>
-					        </div>
-					    </li>
-					</ul>
-			</div><!-- end quicklinks -->						
+                Quicklinks
+                    <ul class="quickdrop">
+                        <li><a href="#">Clinic Tours</a>
+                        <li><a href="#">Quickpay Renewal</a>
+                        <li><a href="#">Craig's Gallery</a>
+                        <li><a href="#">Mary Anne's Gallery</a>
+                        <li><a href="#">Comments and Testimonials</a>
+                        <li><a href="#">Resources</a>
+                        <li><a href="#">Foundation of Equestrian Arts</a>                       
+                    </ul>
+            </div><!-- end quicklinks --> 						
 </div><!-- end header max -->
 
 	<div class="nav-wrap">

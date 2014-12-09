@@ -2774,6 +2774,12 @@ ul.recent_posts_with_excerpts p {
 	font-size: 2em;
 } */
 /* ----------------------header------------------------- */
+@media (max-width: 800px) {
+  .heading h1,
+  .heading h2 {
+    clear: both;
+  }
+}
 header {
   margin: auto;
   width: 100%;
@@ -2788,11 +2794,15 @@ header h1 {
   display: inline-block;
   margin-bottom: 0px;
 }
+@media (max-width: 800px) {
+  header h1 {
+    clear: both;
+  }
+}
 @media (max-width: 640px) {
   header h1 {
     clear: both;
     visibility: hidden;
-    margin-top: -50px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -2892,16 +2902,19 @@ nav {
   position: relative;
   font-family: "Gill std", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
+.menu-item-list {
+  color: #fff !important;
+}
 /* ------------ Quicklinks Dropdown ------------- */
 .quicklinks {
   background-color: #a7841c;
-  position: relative;
   margin-top: 8px;
   display: inline-flex;
   float: right;
   font-size: .8em;
   padding: 10px;
   box-shadow: 0 0 4px #22020A;
+  position: relative;
 }
 .quicklinks a:link {
   color: #fff;
@@ -2915,55 +2928,41 @@ nav {
 .quicklinks a:active {
   color: #fff;
 }
-#quickdrop {
-  margin: 0;
+.quicklinks .quickdrop {
+  background-color: #F8F5ED;
+  margin-left: -11px;
+  margin-top: 5px;
   padding: 0;
   z-index: 6000;
+  position: absolute;
+  display: none;
+  border: 2px solid #999380;
 }
-#quickdrop li {
+.quicklinks .quickdrop li {
+  width: 80px;
   margin: 0;
-  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
   list-style: none;
-  float: left;
   font: 12px "Gill std", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
-#quickdrop li a {
+.quicklinks .quickdrop a:hover {
+  background-color: #a7841c;
+  color: #33030f;
+}
+.quicklinks:hover .quickdrop {
   display: block;
-  margin: 0 1px 0 0;
-  width: 60px;
+}
+.quicklinks .quickdrop li a {
+  display: block;
+  width: 80px;
   background: #a7841c;
   color: #FFF;
   text-align: center;
   text-decoration: none;
 }
-#quickdrop li a:hover {
+.quicklinks .quickdrop li a:hover {
   background: #a7841c;
-}
-#quickdrop div {
-  position: absolute;
-  left: -4px;
-  visibility: hidden;
-  margin: 0;
-  padding: 0;
-  background: #EAEBD8;
-  border: 1px outset #a7841c;
-}
-#quickdrop div a {
-  position: relative;
-  display: block;
-  margin: 0;
-  padding: 5px 10px;
-  width: auto;
-  white-space: nowrap;
-  text-align: left;
-  text-decoration: none;
-  background: #EAEBD8;
-  color: #33030f;
-  font: 12px "Gill std";
-}
-#quickdrop div a:hover {
-  background: #a7841c;
-  color: #FFF;
 }
 /* -----------------------breadcrumb---------------------- */
 .breadcrumb {
