@@ -53,15 +53,18 @@ get_header(); ?>
 							</div>
 
 
-							<div class="col-md-6"><!--nested under row-->
+							<div class="col-md-6 sidespacing article-bkg"><!--nested under row-->
 
-								<p>this is stuff</p>
+								<h3>Radio Interviews</h3>
+
+								<?php echo do_shortcode('[sc_embed_player fileurl="URL OF THE MP3 FILE"]'); ?>
 
 							</div>
 
-					<div class="col-md-6"><!--nested under row-->
+					<div class="col-md-6 sidespacing article-bkg"><!--nested under row-->
 
-						<p>this is stuff</p>
+						<?php dynamic_sidebar( 'footer-menu-7' ); ?>
+						
 
 					</div>
 
