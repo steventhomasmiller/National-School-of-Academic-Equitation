@@ -2593,6 +2593,9 @@ p {
   line-height: 1.65em;
   margin-bottom: 16px;
 }
+hr {
+  color: #c0c0c0 !important;
+}
 blockquote {
   font-family: Cinzel, "Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
   letter-spacing: .5px;
