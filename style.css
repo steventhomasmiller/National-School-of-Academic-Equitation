@@ -2602,6 +2602,18 @@ blockquote {
 li {
   margin-left: 10px;
 }
+span.excerpt {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #999380;
+}
 /* ---------------General layout-------------------- */
 .relative {
   position: relative;
@@ -2930,8 +2942,8 @@ nav {
   color: #fff;
 }
 .quicklinks .quickdrop {
-  background-color: #F8F5ED;
-  margin-left: -11px;
+  background-color: #a7841c;
+  margin-left: -12px;
   margin-top: 5px;
   padding: 0;
   z-index: 6000;
@@ -2947,13 +2959,6 @@ nav {
   list-style: none;
   font: 12px "Gill std", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
-.quicklinks .quickdrop a:hover {
-  background-color: #a7841c;
-  color: #33030f;
-}
-.quicklinks:hover .quickdrop {
-  display: block;
-}
 .quicklinks .quickdrop li a {
   display: block;
   width: 80px;
@@ -2962,8 +2967,12 @@ nav {
   text-align: center;
   text-decoration: none;
 }
-.quicklinks .quickdrop li a:hover {
-  background: #a7841c;
+.quicklinks .quickdrop a:hover {
+  background-color: #a7841c;
+  color: #33030f;
+}
+.quicklinks:hover .quickdrop {
+  display: block;
 }
 /* -----------------------breadcrumb---------------------- */
 .breadcrumb {

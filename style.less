@@ -70,8 +70,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-variant:small-caps;
-  font-family:   Cinzel, "Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-variant: small-caps;
+  font-family: Cinzel, "Times New Roman", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
   letter-spacing: .5px;
   color: #450414;
   font-weight: 500;
@@ -96,6 +96,13 @@ blockquote {
 
 li {
   margin-left: 10px;
+}
+
+span.excerpt {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  .sidespacing;
 }
 
 /* ---------------General layout-------------------- */
@@ -488,8 +495,8 @@ nav {
   }
 
 .quickdrop { 
-  background-color: #F8F5ED;
-  margin-left: -11px;
+  background-color: #a7841c;
+  margin-left: -12px;
   margin-top: 5px;
   padding: 0;
   z-index: 6000;
@@ -505,6 +512,14 @@ nav {
     list-style: none;
     font: 12px "Gill std", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
   }
+  li a {
+    display: block;
+    width: 80px;
+    background: #a7841c;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+  }
   a:hover {
     background-color: #a7841c;
     color: #33030f;
@@ -514,19 +529,6 @@ nav {
 
 &:hover .quickdrop {
   display: block;
-}
-
-.quickdrop li a { 
-  display: block;
-  width: 80px;
-  background: #a7841c;
-  color: #FFF;
-  text-align: center;
-  text-decoration: none;
-
-  &:hover {
-    background: #a7841c;
-  }
 }
 }
 
