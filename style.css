@@ -2750,9 +2750,6 @@ textarea {
   line-height: inherit;
   width: 90%;
 }
-wpcf7-form-control wpcf7-submit {
-  width: 20%;
-}
 /* Widget style plugins */
 /*h2.recent_posts_with_excerpts{
 	font-size: 1em;
