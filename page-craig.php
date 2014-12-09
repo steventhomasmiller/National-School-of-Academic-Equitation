@@ -58,7 +58,7 @@ get_header(); ?>
 								<h3>Radio Interviews</h3>
 								<h4>on Denver radio, April 2nd 2008</h4>
 								<?php echo do_shortcode('[sc_embed_player fileurl="URL OF THE MP3 FILE"]'); ?>
-								<h4>on Denver radio, April 2nd 2008</h4>
+								<h4>On Denver radio, July 16th 2008</h4>
 								<?php echo do_shortcode('[sc_embed_player fileurl="URL OF THE MP3 FILE"]'); ?>
 
 							</div>
