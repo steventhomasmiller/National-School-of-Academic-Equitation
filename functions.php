@@ -204,8 +204,8 @@ register_sidebar(array(
 ));
 
 register_sidebar(array(
-	"name" => "Footer Menu 7",
-	"id" => "footer-7",
+	"name" => "Connect with Craig",
+	"id" => "connect-with-craig",
 	"description" => "This will be on second tier, number 7 position",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div>",
