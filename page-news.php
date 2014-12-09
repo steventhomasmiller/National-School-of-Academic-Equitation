@@ -17,6 +17,7 @@ $the_query = new WP_Query( 'category_name=news' ); ?>
 		<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>&nbsp;
 		<span class="date"><?php the_time('F jS, Y') ?></span></h3>
 		<span class="excerpt"><?php the_excerpt(); ?></span>
+		<hr>
 	<?php endwhile; ?>
 	<!-- end of the loop -->
 
