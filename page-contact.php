@@ -35,7 +35,7 @@ get_header(); ?>
     </div>
 
     <div class="col-md-4 contact">
-        <?php get_post(); ?><p> <?php echo do_shortcode("[contact-form-7 id='48']"); ?></p> <!--Change id to 406 when pushing to live site -->
+        <?php get_post(); ?><p> <?php echo do_shortcode("[contact-form-7 id='406']"); ?></p> <!--Change id to 406 when pushing to live site -->
     </div>
 </div>
 
