@@ -25,6 +25,8 @@
 		<h2>Classical Horsemanship for the Modern Rider</h2>
 	</div>
 
+
+<div>
 			<div class="quicklinks"> <!-- dropdown -->
                 Quicklinks
                     <ul class="quickdrop">
@@ -36,14 +38,24 @@
                         <li><a href="#">Resources</a>
                         <li><a href="#">Foundation of Equestrian Arts</a>                       
                     </ul>
-            </div><!-- end quicklinks --> 						
+            </div><!-- end quicklinks --> 	
+
+		<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">		
+			<label>			
+				<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search …', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>" />
+			</label>
+		</form>
+</div>	
+
+
+
 </div><!-- end header max -->
 
 	<div class="nav-wrap">
 		<nav>
 			<?php if (function_exists('widgetize_my_dropdown_menus')) {
 				widgetize_my_dropdown_menus('primary'); } ?>						
-		</nav>		
+		</nav>
 	</div>
 
 </header>

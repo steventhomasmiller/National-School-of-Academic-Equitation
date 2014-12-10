@@ -2914,6 +2914,13 @@ nav {
 .menu-item-list {
   color: #fff !important;
 }
+.search-form {
+  margin-top: 18px;
+  width: 145px;
+  position: relative;
+  float: right;
+  display: block;
+}
 /* ------------ Quicklinks Dropdown ------------- */
 .quicklinks {
   background-color: #a7841c;
