@@ -36,7 +36,7 @@ get_header(); ?>
 
 			<div class="row-fluid"><!-- nested row -->
 
-					<div class="col-xs-12 col-sm-6 article-bkg" id="center-craig">
+					<div class="col-md-6 col-sm-12 article-bkg" id="center-craig">
 						<div><!-- craig page center sidebar -->
 
 							<?php dynamic_sidebar( 'craig-center-sidebar' ); ?>
@@ -44,7 +44,7 @@ get_header(); ?>
 						</div>
 					</div>
 
-							<div class="col-xs-12 col-sm-6 article-bkg" id="right-craig">
+							<div class="col-md-6 col-sm-12 article-bkg" id="right-craig">
 								<div><!-- craig page right sidebar -->
 
 									<?php dynamic_sidebar( 'craig-right-sidebar' ); ?>
@@ -53,7 +53,7 @@ get_header(); ?>
 							</div>
 
 
-							<div class="col-md-6 sidespacing article-bkg"><!--nested under row-->
+							<div class="col-md-6 col-sm-6 sidespacing article-bkg"><!--nested under row-->
 
 								<h3>Radio Interviews</h3>
 								<h4>on Denver radio, April 2nd 2008</h4>
@@ -63,7 +63,7 @@ get_header(); ?>
 
 							</div>
 
-					<div class="col-md-6 sidespacing article-bkg"><!--nested under row-->
+					<div class="col-md-6 col-sm-6 sidespacing article-bkg"><!--nested under row-->
 
 						<?php dynamic_sidebar( 'connect-with-craig' ); ?>
 						
