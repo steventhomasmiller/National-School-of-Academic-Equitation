@@ -3047,16 +3047,16 @@ nav {
 .footer a:link:active {
   color: #a7841c;
 }
-.post page .footer-menu ul li a {
+.footer-menu ul li a {
   color: #fff;
 }
-.post page .footer-menu ul li a:visited {
+.footer-menu ul li a:visited {
   color: #fff;
 }
-.post page .footer-menu ul li a:hover {
+.footer-menu ul li a:hover {
   color: #a7841c;
 }
-.post page .footer-menu ul li a:active {
+.footer-menu ul li a:active {
   color: #a7841c;
 }
 #craig-row-right {
