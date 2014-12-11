@@ -15,71 +15,9 @@
 
 		else : 
 			echo '<p>No content found</p>';
+			echo'<?php get_search_form(); ?>';
 		endif;
 		?>
-
-	<div class="row">
-		<div class="col-md-4"><?php get_sidebar("left"); ?></div>
-		<div class="col-md-4 post-feed"><h2>News</h2>
-
-<?php 
-// the query
-$the_query = new WP_Query( 'category_name=news' ); ?>
-
-<?php if ( $the_query->have_posts() ) : ?>
-
-	<!-- pagination here -->
-
-	<!-- the loop -->
-	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-		<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-		<span class="date"><?php the_time('F jS, Y') ?></span></h4>
-		<span class="excerpt"><?php the_excerpt(); ?></span>
-	<?php endwhile; ?>
-	<!-- end of the loop -->
-
-	<!-- pagination here -->
-
-	<?php wp_reset_postdata(); ?>
-
-<?php else : ?>
-	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-<?php endif; ?>
-
-</div>
-			
-<div class="col-md-4 calendar-sidebar"> <!-- Pay attention to this!!! -->
-		<h2>Upcoming Events</h2>
-	<?php echo do_shortcode("[gcal id='39']");?> 
-			<?php  
-// the query
-$the_query = new WP_Query( array(
-	"category_name" => "events",
-	"post_status" => array( "published", "future" )
-) ); ?>
-
-<?php if ( $the_query->have_posts() ) : ?>
-
-	<!-- pagination here -->
-
-	<!-- the loop -->
-	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-		<div class="calendar-item"><h4><?php the_date() ?> </h4>
-		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-
-	<?php endwhile; ?>
-	<!-- end of the loop -->
-
-	<!-- pagination here -->
-
-	<?php wp_reset_postdata(); ?>
-
-<?php else : ?>
-	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-<?php endif; ?>
-<?php get_sidebar("right"); ?>
-	</div>
-	</div>
 	</div> 
 </div>
 		
