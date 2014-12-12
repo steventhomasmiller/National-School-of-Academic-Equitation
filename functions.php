@@ -207,7 +207,7 @@ register_sidebar(array(
 register_sidebar(array(
 	"name" => "Connect with Craig",
 	"id" => "connect-with-craig",
-	"description" => "This will be on second tier, number 7 position",
+	"description" => "This will be on Craigs page",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div><br />",
 ));

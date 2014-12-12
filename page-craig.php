@@ -69,11 +69,11 @@ get_header(); ?>
 										}
 									?>
 								<h3>
-									<a href="<?php echo get_permalink( $my_posts[0]->ID ); ?>"><?php echo 'Radio Interviews'; ?></a>
+									<a class="gold-link" href="<?php echo get_permalink( $my_posts[0]->ID ); ?>"><?php echo 'Radio Interviews'; ?></a>
 								</h3>
-								<h4>On Denver radio, April 2nd 2008</h4>
+								<p>On Denver radio, April 2nd 2008</p>
 								
-								<h4>On Denver radio, July 16th 2008</h4>
+								<p>On Denver radio, July 16th 2008</p>
 								
 
 							</div>
