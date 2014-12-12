@@ -2783,12 +2783,6 @@ ul.recent_posts_with_excerpts p {
 	font-size: 2em;
 } */
 /* ----------------------header------------------------- */
-@media (max-width: 800px) {
-  .heading h1,
-  .heading h2 {
-    clear: both;
-  }
-}
 header {
   margin: auto;
   width: 100%;
@@ -2797,25 +2791,20 @@ header {
 .logo img {
   z-index: 1000;
 }
-header h1 {
+.heading h1 {
   padding-left: 30px;
   font-variant: small-caps;
   display: inline-block;
   margin-bottom: 0px;
 }
-@media (max-width: 800px) {
-  header h1 {
-    clear: both;
-  }
-}
 @media (max-width: 640px) {
-  header h1 {
+  .heading h1 {
     clear: both;
     visibility: hidden;
   }
 }
 @media only screen and (max-width: 400px) {
-  header h1 {
+  .heading h1 {
     visibility: hidden;
   }
 }
@@ -2914,12 +2903,26 @@ nav {
 .menu-item-list {
   color: #fff !important;
 }
+.search-row {
+  margin: auto;
+}
 .search-form {
-  margin-top: 18px;
+  color: #000;
+  padding-bottom: 15px;
+  margin: auto;
   width: 145px;
-  position: relative;
-  float: right;
   display: block;
+}
+@media (max-width: 768px) {
+  .search-form {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .search-form {
+    width: 100%;
+  }
 }
 /* ------------ Quicklinks Dropdown ------------- */
 .quicklinks {
@@ -2976,28 +2979,6 @@ nav {
 }
 .quicklinks:hover .quickdrop {
   display: block;
-}
-/* -----------------------breadcrumb---------------------- */
-.breadcrumb {
-  font-family: "Gill std", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-}
-.trail-background {
-  background-color: #33030f;
-}
-.trail {
-  padding-left: 15px;
-  position: relative;
-  margin: auto;
-  left: 116px;
-  width: 748px;
-  background-color: #D4D6D8;
-  box-shadow: inset 0 0 8px #22020A;
-}
-.trail a {
-  color: black;
-}
-.trail a:hover {
-  color: #3366CC;
 }
 /* -----------------------footer-------------------------- */
 .list-style-none ul li {

@@ -161,7 +161,7 @@ register_sidebar(array(
 	"id" => "footer-1",
 	"description" => "This will be on left, number 1 position",
 	"before_widget" => "<div class='widget'>",
-	"after_widget" => "</div>",
+	"after_widget" => "</div><br />",
 ));
 
 register_sidebar(array(
@@ -169,7 +169,7 @@ register_sidebar(array(
 	"id" => "footer-2",
 	"description" => "This will be on left, number 2 position",
 	"before_widget" => "<div class='widget'>",
-	"after_widget" => "</div>",
+	"after_widget" => "</div><br />",
 ));
 
 register_sidebar(array(
@@ -177,7 +177,7 @@ register_sidebar(array(
 	"id" => "footer-3",
 	"description" => "This will be on left, number 3 position",
 	"before_widget" => "<div class='widget'>",
-	"after_widget" => "</div>",
+	"after_widget" => "</div><br />",
 ));
 
 register_sidebar(array(
@@ -185,7 +185,7 @@ register_sidebar(array(
 	"id" => "footer-4",
 	"description" => "This will be in the center, number 4 position",
 	"before_widget" => "<div class='widget'>",
-	"after_widget" => "</div>",
+	"after_widget" => "</div><br />",
 ));
 
 register_sidebar(array(
@@ -193,7 +193,7 @@ register_sidebar(array(
 	"id" => "footer-5",
 	"description" => "This will be on the right, number 5 position",
 	"before_widget" => "<div class='widget'>",
-	"after_widget" => "</div>",
+	"after_widget" => "</div><br />",
 ));
 
 register_sidebar(array(
@@ -201,7 +201,7 @@ register_sidebar(array(
 	"id" => "footer-6",
 	"description" => "This will be on the right, number 6 position",
 	"before_widget" => "<div class='widget'>",
-	"after_widget" => "</div>",
+	"after_widget" => "</div><br />",
 ));
 
 register_sidebar(array(
@@ -209,7 +209,7 @@ register_sidebar(array(
 	"id" => "connect-with-craig",
 	"description" => "This will be on second tier, number 7 position",
 	"before_widget" => "<div class='widget'>",
-	"after_widget" => "</div>",
+	"after_widget" => "</div><br />",
 ));
 
 ?>

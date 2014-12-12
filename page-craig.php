@@ -54,12 +54,27 @@ get_header(); ?>
 
 
 							<div class="col-md-6 col-sm-6 sidespacing article-bkg"><!--nested under row-->
-
-								<h3>Radio Interviews</h3>
-								<h4>on Denver radio, April 2nd 2008</h4>
-								<?php echo do_shortcode('[sc_embed_player fileurl="URL OF THE MP3 FILE"]'); ?>
+	
+									<?php
+										$the_slug = 'radio interviews';
+										$args=array(
+											'post_name' => $the_slug,
+											'post_type' => 'post',
+											'post_status' => 'publish',
+											'posts_per_page' => 1
+										);
+										$my_posts = get_posts( $args );
+										if( $my_posts ) {
+											
+										}
+									?>
+								<h3>
+									<a href="<?php echo get_permalink( $my_posts[0]->ID ); ?>"><?php echo 'Radio Interviews'; ?></a>
+								</h3>
+								<h4>On Denver radio, April 2nd 2008</h4>
+								
 								<h4>On Denver radio, July 16th 2008</h4>
-								<?php echo do_shortcode('[sc_embed_player fileurl="URL OF THE MP3 FILE"]'); ?>
+								
 
 							</div>
 

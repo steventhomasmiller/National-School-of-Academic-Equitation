@@ -16,10 +16,23 @@
 				  Snohomish, WA 98296<br>
 				  (360) 668-5242<br>
 				  <a href="mailto:nsae@classical-equitation.com">nsae@classical-equitation.com</p></a>
-				  <br />
 
 
-				<div class="row-fluid widget-title-hidden footer-font pad-fix">
+<div class="row-fluid">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 search-row">
+
+		<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">		
+			<label>			
+				<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search …', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>" />
+			</label>
+		</form>
+
+	</div>
+</div>
+
+
+
+				<div class="row-fluid widget-title-hidden footer-font pad-fix clearfix">
 							<div class="col-md-2 col-sm-4 col-xs-6 footer-1 footer-menu">
 									<?php dynamic_sidebar('footer-1'); ?>
 							</div>
@@ -46,7 +59,7 @@
 				</div><!--   ~~~~ end footer row 1 ~~~~ -->
 		<div class="row-fluid">
 
-			<div class="col-md-12 text-small lttr">
+			<div class="col-md-12 col-sm-12 col-xs-12 text-small lttr">
 				<p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?> all rights reserved. (<a href="<?php echo get_permalink( 492 ); ?>">View site credits</a>.)</p> <!-- Change permalink to 492 when uploading to live site -->
 			</div>
 		</div>
