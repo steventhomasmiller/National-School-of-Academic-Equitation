@@ -43,7 +43,6 @@ function create_post_type() {
 
 	add_theme_support('post-thumbnails');
 	set_post_thumbnail_size(200,200, true);
-	add_theme_support( 'custom-header', $args );
 
 //Post excerpts
 
